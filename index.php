@@ -35,7 +35,7 @@
 	</div>
 </section> -->
 
-<section>test
+<section>
 	<?php
 	$path = "photo";
 	$dir = "cover";
