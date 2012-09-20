@@ -7,13 +7,13 @@
             <li><a href="<?php echo $basedir;?>"><i class="icon-home"></i>&nbsp;Home</a></li>
             <li><a href="<?php echo $basedir;?>page/about.php"><i class="icon-info-sign icon-black"></i>&nbsp;About</a></li>
             <li><a href="<?php echo $basedir;?>page/contact.php"><i class="icon-envelope icon-black"></i>&nbsp;Contact</a></li>
+            <li><a href="http://www.guidofua.com/blog" target="_blank"><i class="icon-rss"></i>&nbsp;Blog</a></li>
           </ul>
           <ul id="social" class="nav">
-						<li><a href="http://www.guidofua.com/blog" target="_blank"><i class="icon-rss"></i></a></li>
-        		<li><a href="https://plus.google.com/u/0/110372748342070641271" target="_blank"><i class="icon-google-plus"></i></a></li>
-        		<li><a href="http://www.linkedin.com/in/eikona" target="_blank"><i class="icon-linkedin"></i></a></li>
-        		<li><a href="https://twitter.com/guidofua" target="_blank"><i class="icon-twitter"></i></a></li>
         		<li><a href="https://www.facebook.com/guido.fua" target="_blank"><i class="icon-facebook"></i></a></li>
+        		<li><a href="https://twitter.com/guidofua" target="_blank"><i class="icon-twitter"></i></a></li>
+        		<li><a href="http://www.linkedin.com/in/eikona" target="_blank"><i class="icon-linkedin"></i></a></li>
+        		<li><a href="https://plus.google.com/u/0/110372748342070641271" target="_blank"><i class="icon-google-plus"></i></a></li>
 					</ul>
 			</div></div>
 			<div id="contact">
