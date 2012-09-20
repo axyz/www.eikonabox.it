@@ -42,7 +42,7 @@
 
 	echo '<div class="container">
 			<div class="row-fluid">
-				<div class="span12">aaaaa
+				<div class="span12">
 					<ul id="homewall" class="thumbnails">';
 						$files = array();
 							if($dir=='.' or $dir=='..' ){
