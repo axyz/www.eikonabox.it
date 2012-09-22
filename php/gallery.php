@@ -44,7 +44,7 @@ function makeGallery($path, $directory){
 	}
 
 	reset($output);
-	echo '<div class="container">
+	echo '<div class="container-fluid">
 				<div class="row-fluid">
 					<div class="span12">';
 	print "<ul id='photoswipe'  class='thumbnails'>";
