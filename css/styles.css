@@ -44,7 +44,8 @@ table img {
 }
 #photoswipe li .thumbnail img,
 #videogallery li .thumbnail img {
-  width: 100%;
+  width: 100.5;
+  max-width: 100.5%;
 }
 #photoswipe li a,
 #videogallery li a {
@@ -154,9 +155,7 @@ html[xmlns] .slides {
   #photoswipe li,
   #videogallery li {
     float: left;
-    width: 33.3333%;
-    /*31.91d49%*/
-  
+    width: 24.9%;
     margin-bottom: 0px;
   }
   #homewall li {
@@ -169,7 +168,7 @@ html[xmlns] .slides {
   #photoswipe li,
   #videogallery li {
     float: left;
-    width: 33.3333%;
+    width: 24.9%;
     margin-bottom: 0px;
   }
   #homewall li {
@@ -182,7 +181,7 @@ html[xmlns] .slides {
   #photoswipe li,
   #videogallery li {
     float: left;
-    width: 33.3333%;
+    width: 24.9%;
     margin-bottom: 0px;
   }
   #homewall li {
@@ -195,7 +194,7 @@ html[xmlns] .slides {
   #photoswipe li,
   #videogallery li {
     float: left;
-    width: 33.3333%;
+    width: 24.9%;
     margin-bottom: 0px;
   }
   #homewall li {

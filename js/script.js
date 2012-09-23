@@ -32,7 +32,9 @@ $(function(){
 $container.imagesLoaded(function(){
   $container.masonry({
     itemSelector: '.box',
-    columnWidth: 1,
+    columnWidth: function( containerWidth ) {
+    return containerWidth / 4;
+  },
     isAnimated: false
   });
 });
