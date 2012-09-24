@@ -44,7 +44,7 @@ function makeGallery($path, $directory){
 	}
 
 	reset($output);
-	echo '<div class="container">
+	echo '<div class="container-fluid fullscreen">
 				<div class="row-fluid">
 					<div class="span12">';
 	print "<ul id='photoswipe'  class='thumbnails'>";
@@ -53,7 +53,7 @@ function makeGallery($path, $directory){
 		for($j=0;$j<$cols;$j++){
 			if(current($output) != false){
 				$value = current($output);
-				print "<li class='span4 box'><a class='thumbnail' href='$dir/$value'><img width='$width' height='inherrit' src='$dir/thumbs/$value' /></a></li>";
+				print "<li class='span3 box'><a class='thumbnail' href='$dir/$value'><img width='$width' height='inherrit' src='$dir/thumbs/$value' /></a></li>";
 				next($output);
 			}else{
 				print "</ul>";
