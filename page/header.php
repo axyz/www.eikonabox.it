@@ -8,7 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="Unknown" >
-
+    <!-- adaptive images -->
+    <script>document.cookie='resolution='+Math.max(screen.width,screen.height)+("devicePixelRatio" in window ? ","+devicePixelRatio : ",1")+'; path=/';</script>
     <!-- Le styles -->
     <link href="<?php echo $basedir;?>css/bootstrap.css" rel="stylesheet">
     <!--<link href="/eikonanew/css/bootstrap.less" rel="stylesheet/less">-->
