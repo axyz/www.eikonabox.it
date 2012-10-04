@@ -44,9 +44,7 @@ function makeGallery($path, $directory){
 	}
 
 	reset($output);
-	echo '<div class="container-fluid fullscreen">
-				<div class="row-fluid">
-					<div class="span12">';
+
 	print "<ul id='photoswipe'  class='thumbnails'>";
 
 	for($i=0;$i<$rows;$i++){
@@ -61,9 +59,7 @@ function makeGallery($path, $directory){
 		}
 	}
 
-	echo '	</div>
-				</div>
-			</div>';
+
 	$ref = $_SERVER['PHP_SELF'];
 
 	if($num_pages == '0'){

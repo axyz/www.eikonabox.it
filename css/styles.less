@@ -50,13 +50,14 @@
 	}
 	
 	#photoswipe, #videogallery {
+		width: inherit;
 		li {
 			margin-left: 0;
 			.thumbnail {
 				border: none;
 				box-shadow: none;
 				img {
-					width: 100.5;
+					width: 100.5%;
 					max-width: 100.5%;
 				}
 			}
@@ -230,7 +231,21 @@ html[xmlns] .slides {display: block;}
 @media handheld, only screen and (max-width: 767px) {
 
 	body {
-		
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+	.navbar-fixed-top {
+		margin-bottom: 0px;
+	}
+
+	.navbar-fixed-bottom {
+		margin: 0px;
+	}
+
+	.navbar-fixed-top, .navbar-fixed-bottom {
+    margin-left: 0px;
+    margin-right: 0px;
 	}
 	
 	#photoswipe, #videogallery {
@@ -275,7 +290,21 @@ html[xmlns] .slides {display: block;}
 @media handheld, only screen and (max-width: 260px) {
 
 	body {
-		
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+	.navbar-fixed-top {
+		margin-bottom: 0px;
+	}
+
+	.navbar-fixed-bottom {
+		margin: 0px;
+	}
+
+	.navbar-fixed-top, .navbar-fixed-bottom {
+    margin-left: 0px;
+    margin-right: 0px;
 	}
 	
 	#photoswipe, #videogallery {
