@@ -4,8 +4,15 @@
 /* ! Layout for desktop version   */
 /* ============================== */
 
+.shadow {
+    box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
+    -moz-box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
+    -webkit-box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
+}
+
 	body {
-        
+        background-image: url(http://www.cheesesurvivalkit.com/images/bg-body.jpg);
+				background-color: transparent;
       }
 
     .fullscreen {
@@ -15,10 +22,11 @@
       
    .navbar-inner {
 		background-image: none;
-		background-color: rgba(33,33,33,.9);
+		background-color: rgba(245,245,245,.9);
+		box-shadow: none;
 		
 		.dropdown-menu {
-			background-color: rgba(33,33,33,.9);
+			background-color: rgba(245,245,245,.9);
 			a:hover {
 				background-color: #ccc;
 				color: #333;
@@ -31,11 +39,27 @@
 		}
 
 		.nav {
+				font-family: 'Carrois Gothic SC', sans-serif;
+    		font-size: 14px;
    			float: right;
    			li a {
-   				color: #ccc;
+   				color: #111;
    			}
    		}
+   		
+		.nav li {
+			padding-right: 5px;
+		}
+
+   	.nav li a{
+   		padding: 0px 0px 0px;
+   		display: inline;
+	   }
+
+   	.nav li a:hover {
+   		color: #fafafa;
+   		background-color: #111;
+   	}
 
    		.brand {
    			margin-top: 5px;
