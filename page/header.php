@@ -20,7 +20,7 @@
       }
     </style>
     <link href="<?php echo $basedir;?>css/bootstrap-responsive.css" rel="stylesheet">
-    <link href="<?php echo $basedir;?>css/photoswipe.css" rel="stylesheet">
+    <link href="<?php echo $basedir;?>css/jquery.fancybox.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Carrois+Gothic+SC' rel='stylesheet' type='text/css'>
     <link href="<?php echo $basedir;?>css/styles.css" rel="stylesheet">
 

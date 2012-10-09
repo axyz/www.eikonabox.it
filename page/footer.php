@@ -32,10 +32,11 @@
 <script src="<?php echo $basedir;?>js/less-min.js"></script>
 <script src="<?php echo $basedir;?>js/bootstrap.js"></script>
 <script src="<?php echo $basedir;?>js/klass.min.js"></script>
-<script src="<?php echo $basedir;?>js/photoswipe.jquery.min.js"></script>
 <script src="<?php echo $basedir;?>js/jquery.masonry.min.js"></script>
 <script src="<?php echo $basedir;?>js/jquery.flexslider.min.js"></script>
 <script src="<?php echo $basedir;?>js/jquery.infinitescroll.min.js"></script>
+<script src="<?php echo $basedir;?>js/jquery.fancybox.min.js"></script>
+<script type="text/javascript" src="//assets.pinterest.com/js/pinit.js"></script>
 <script src="<?php echo $basedir;?>js/script.js"></script>
 </body>
 

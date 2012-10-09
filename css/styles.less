@@ -66,30 +66,57 @@
    			margin-bottom: 2px;
    		}
    }
+
+  .thumbnails > li {
+  	margin-bottom: 10px;
+  }
 	
-	table{ 
-		img{
-			max-width:none;
-		}
+	#photoswipe {
+		margin:0;
+		padding:0;
+		margin-left: 30px;
 	}
 	
 	#photoswipe, #videogallery {
-		width: inherit;
 		li {
-			margin-left: 0;
-			.thumbnail {
+			.thumbnails {
 				border: none;
-				box-shadow: none;
-				img {
-					width: 100.5%;
-					max-width: 100.5%;
-				}
+				box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
+    		-moz-box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
+    		-webkit-box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
+    		margin-left: 0px;
+    		display: block;
 			}
-			a {
-				padding: 0px;
-				margin-bottom: 0px;
+
+			img {
+				width: 100%;
 			}
 		}
+	}
+
+	.social-icon {
+		color: #111;
+		:hover {
+			text-decoration: none;
+			color: #888;
+		}
+	}
+
+	.fancybox-title-inside-wrap {
+		padding:0;
+		text-align: center;
+		font-family: 'Carrois Gothic SC', sans-serif;
+		font-weight: bold;
+		background-image: url(http://www.cheesesurvivalkit.com/images/bg-body.jpg);
+		background-color: transparent;
+	}
+
+	.box{
+		width: 24%;
+	}
+
+	.thumbnails > li {
+		margin-left: 10px;
 	}
 
 	#homewall {
@@ -182,16 +209,14 @@ html[xmlns] .slides {display: block;}
 /* ! Layout for mobile version   */
 /* ============================= */
 
-@media (min-width: 1200px) {
+@media (min-width: 1440px) {
 	body {
 		
 	}
 	
 	#photoswipe, #videogallery {
 		li {
-			float: left;
-			width: 24.9%;
-			margin-bottom: 0px;
+
 		}
 	}
 
@@ -202,19 +227,21 @@ html[xmlns] .slides {display: block;}
 			margin-bottom: 0px;
 		}
 	}
+
+	.box{
+		width: 19%;
+	}
 }
 
 
-@media (min-width: 979px) and (max-width: 1200px) {
+@media (min-width: 979px) and (max-width: 1440px) {
 	body {
 		
 	}
 
 	#photoswipe, #videogallery {
 		li {
-			float: left;
-			width: 24.9%;
-			margin-bottom: 0px;
+
 		}
 	}
 
@@ -224,6 +251,10 @@ html[xmlns] .slides {display: block;}
 			width: 16.6666%;
 			margin-bottom: 0px;
 		}
+	}
+
+	.box{
+		width: 24%;
 	}
 }
 
@@ -235,9 +266,7 @@ html[xmlns] .slides {display: block;}
 	
 	#photoswipe, #videogallery {
 		li {
-			float: left;
-			width: 24.9%;
-			margin-bottom: 0px;
+
 		}
 	}
 
@@ -247,6 +276,10 @@ html[xmlns] .slides {display: block;}
 			width: 16.6666%;
 			margin-bottom: 0px;
 		}
+	}
+
+	.box{
+		width: 32%;
 	}
 
 }
@@ -254,29 +287,10 @@ html[xmlns] .slides {display: block;}
 
 @media handheld, only screen and (max-width: 767px) {
 
-	body {
-		padding-left: 0px;
-		padding-right: 0px;
-	}
-
-	.navbar-fixed-top {
-		margin-bottom: 0px;
-	}
-
-	.navbar-fixed-bottom {
-		margin: 0px;
-	}
-
-	.navbar-fixed-top, .navbar-fixed-bottom {
-    margin-left: 0px;
-    margin-right: 0px;
-	}
 	
 	#photoswipe, #videogallery {
 		li {
-			float: left;
-			width: 24.9%;
-			margin-bottom: 0px;
+
 		}
 	}
 
@@ -288,54 +302,25 @@ html[xmlns] .slides {display: block;}
 		}
 	}
 
-	#footer {
-		.navbar-inner {
-			height: 100px;
-			padding-left: 0px;
-		}
-		.nav li{
-			float: none;
-		}
+	.box{
+		width: 46%;
+	}
 
-		#social {
-			li{
-				float: right;
-			}
-		}
-
-		#contact {
-			text-align: center;
-		}
+	#photoswipe {
+		margin:0;
+		padding:0;
+		margin-left: -15px;
 	}
 
 }
 
 
-@media handheld, only screen and (max-width: 260px) {
+@media handheld, only screen and (max-width: 320px) {
 
-	body {
-		padding-left: 0px;
-		padding-right: 0px;
-	}
-
-	.navbar-fixed-top {
-		margin-bottom: 0px;
-	}
-
-	.navbar-fixed-bottom {
-		margin: 0px;
-	}
-
-	.navbar-fixed-top, .navbar-fixed-bottom {
-    margin-left: 0px;
-    margin-right: 0px;
-	}
 	
 	#photoswipe, #videogallery {
 		li {
-			float: left;
-			width: 100%;
-			margin-bottom: 0px;
+
 		}
 	}
 
@@ -347,6 +332,15 @@ html[xmlns] .slides {display: block;}
 		}
 	}
 
+	.box{
+		width: 100%;
+	}
+
+	#photoswipe {
+		margin:0;
+		padding:0;
+		margin-left: -15px;
+	}
 
 }
 

@@ -12,9 +12,9 @@ function makeGallery($path, $directory){
 	$filecount = count(glob("" . $dir . "*.jpg"));
 
 	closedir($handle);
-	array_multisort($result_array, SORT_DESC);
+	array_multisort($result_array, SORT_ASC);
 	$rows = 3;
-	$cols = 3;
+	$cols = 8;
 
 	if(isset($_GET['page'])){
 		$page = $_GET['page'];
@@ -44,14 +44,20 @@ function makeGallery($path, $directory){
 	}
 
 	reset($output);
-
+	print '<div class="container-fluid">
+		<div class="row">';
 	print "<ul id='photoswipe'  class='thumbnails'>";
 
 	for($i=0;$i<$rows;$i++){
 		for($j=0;$j<$cols;$j++){
 			if(current($output) != false){
 				$value = current($output);
-				print "<li class='span3 box'><a class='thumbnail' href='$dir/$value'><img width='$width' height='inherrit' src='$dir/thumbs/$value' /></a></li>";
+				$parts = Explode('.', $value);
+    		$title = $parts[count($parts) - 2];
+    		$parts = Explode('-', $title);
+    		$title = $parts[1];
+    		if ($title == "") $title = $value;
+				print "<li class='box'><a title='$title' rel='group' class='thumbnails' href='$dir/$value'><img width='$width' height='inherrit' src='$dir/thumbs/$value' /></a></li>";
 				next($output);
 			}else{
 				print "</ul>";
@@ -82,6 +88,6 @@ function makeGallery($path, $directory){
 
 	echo "<nav id='page-nav'>
 	<a href='$ref?page=$next'></a>
-	</nav>";
+	</nav></div></div>";
 }
 ?>
