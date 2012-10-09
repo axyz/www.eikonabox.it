@@ -1,0 +1,275 @@
+/* ============================== */
+/* ============================== */
+/* ! Layout for desktop version   */
+/* ============================== */
+.shadow {
+  box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
+  -moz-box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
+  -webkit-box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
+}
+body {
+  background-image: url(../img/bg-body.jpg);
+  background-color: transparent;
+}
+.fullscreen {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.navbar-inner {
+  background-image: none;
+  background-color: rgba(245, 245, 245, 0.9);
+  box-shadow: none;
+}
+.navbar-inner .dropdown-menu {
+  background-color: rgba(245, 245, 245, 0.9);
+}
+.navbar-inner .dropdown-menu a:hover {
+  background-color: #ccc;
+  color: #333;
+}
+.navbar-inner .dropdown-menu .active a {
+  background-color: #ccc;
+  color: #333;
+}
+.navbar-inner .nav {
+  font-family: 'Carrois Gothic SC', sans-serif;
+  font-size: 14px;
+  float: right;
+}
+.navbar-inner .nav li a {
+  color: #111;
+}
+.navbar-inner .nav li {
+  padding-right: 5px;
+}
+.navbar-inner .nav li a {
+  padding: 0px 0px 0px;
+  display: inline;
+}
+.navbar-inner .nav li a:hover {
+  color: #fafafa;
+  background-color: #111;
+}
+.navbar-inner .brand {
+  margin-top: 5px;
+  margin-bottom: 2px;
+}
+.thumbnails > li {
+  margin-bottom: 10px;
+}
+#photoswipe {
+  margin: 0;
+  padding: 0;
+  margin-left: 30px;
+}
+#photoswipe,
+#videogallery {
+  visibility: hidden;
+}
+#photoswipe li .thumbnails,
+#videogallery li .thumbnails {
+  border: none;
+  box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
+  -moz-box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
+  -webkit-box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
+  margin-left: 0px;
+  display: block;
+}
+#photoswipe li img,
+#videogallery li img {
+  width: 100%;
+}
+.social-icon {
+  color: #111;
+}
+.social-icon :hover {
+  text-decoration: none;
+  color: #444;
+}
+.fancybox-opened .fancybox-title {
+  margin-top: -65px;
+}
+.fancybox-title-inside-wrap {
+  padding: 0;
+  text-align: center;
+  font-family: 'Carrois Gothic SC', sans-serif;
+  font-weight: bold;
+  /*background-image: url(../img/bg-body.jpg);*/
+
+  background-color: rgba(225, 225, 225, 0.5);
+  color: #111;
+}
+.box {
+  width: 24%;
+}
+.thumbnails > li {
+  margin-left: 10px;
+}
+#homewall li {
+  margin-left: 0;
+}
+#homewall li a {
+  padding: 0px;
+  margin-bottom: 0px;
+}
+#footer .nav {
+  float: left;
+}
+#footer #social {
+  float: right;
+}
+#footer #contact {
+  text-align: center;
+}
+/* FlexSlider Necessary Styles
+*********************************/.flex-container a:active,
+.flexslider a:active,
+.flex-container a:focus,
+.flexslider a:focus {
+  outline: none;
+}
+.slides,
+.flex-control-nav,
+.flex-direction-nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.flexslider {
+  margin: 0;
+  padding: 0;
+}
+.flexslider .slides > li {
+  display: none;
+  -webkit-backface-visibility: hidden;
+}
+/* Hide the slides before the JS 
+is loaded. Avoids image jumping */
+.flexslider .slides img {
+  width: 100%;
+  display: block;
+}
+.flex-pauseplay span {
+  text-transform: capitalize;
+}
+/* Clearfix for the .slides element */
+.slides:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+html[xmlns] .slides {
+  display: block;
+}
+* html .slides {
+  height: 1%;
+}
+/* No JavaScript Fallback */
+/* If you are not using another script, such as Modernizr, make sure you
+ * include js that eliminates this class on page load */
+.no-js .slides > li:first-child {
+  display: block;
+}
+/**** Masonry Transitions ****/
+/*
+.masonry,
+.masonry .masonry-brick {
+  -webkit-transition-duration: 0.7s;
+     -moz-transition-duration: 0.7s;
+      -ms-transition-duration: 0.7s;
+       -o-transition-duration: 0.7s;
+          transition-duration: 0.7s;
+}
+
+.masonry {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+      -ms-transition-property: height, width;
+       -o-transition-property: height, width;
+          transition-property: height, width;
+}
+
+.masonry .masonry-brick {
+  -webkit-transition-property: left, right, top;
+     -moz-transition-property: left, right, top;
+      -ms-transition-property: left, right, top;
+       -o-transition-property: left, right, top;
+          transition-property: left, right, top;
+}
+
+*/
+/* ============================= */
+/* ! Layout for mobile version   */
+/* ============================= */
+@media (min-width: 1440px) {
+  #homewall li {
+    float: left;
+    width: 16.6666%;
+    margin-bottom: 0px;
+  }
+  .box {
+    width: 19%;
+  }
+}
+@media (min-width: 979px) and (max-width: 1440px) {
+  #homewall li {
+    float: left;
+    width: 16.6666%;
+    margin-bottom: 0px;
+  }
+  .box {
+    width: 24%;
+  }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+  #homewall li {
+    float: left;
+    width: 16.6666%;
+    margin-bottom: 0px;
+  }
+  .box {
+    width: 32%;
+  }
+}
+@media handheld, only screen and (max-width: 767px) {
+  #homewall li {
+    float: left;
+    width: 16.6666%;
+    margin-bottom: 0px;
+  }
+  .box {
+    width: 46%;
+  }
+  #photoswipe {
+    margin: 0;
+    padding: 0;
+    margin-left: -15px;
+  }
+}
+@media handheld, only screen and (max-width: 320px) {
+  #homewall li {
+    float: left;
+    width: 100%;
+    margin-bottom: 0px;
+  }
+  .box {
+    width: 100%;
+  }
+  #photoswipe {
+    margin: 0;
+    padding: 0;
+    margin-left: -15px;
+  }
+}
+/* ========================================== */
+/* ! Provide higher res assets for iPhone 4   */
+/* ========================================== */
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+  /*	.logo {
+  		background: url(logo2x.jpg) no-repeat;
+  		background-size: 212px 303px;
+  	}*/
+}
