@@ -41,6 +41,7 @@ $container.imagesLoaded(function(){
     columnWidth: 1,
     isAnimated: false
   });
+  $('#photoswipe').css('visibility', 'visible');
 });
 
 $container.infinitescroll({
