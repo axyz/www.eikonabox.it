@@ -90,7 +90,7 @@ function( newElements ) {
             }
         },
         afterShow: function() {
-            // Render tweet button
+            $.fancybox.update();
         },
         helpers : {
             title : {

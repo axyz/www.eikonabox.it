@@ -3,7 +3,7 @@ function makeGallery($path, $directory){
 	$dir = $path . "/" . $directory;
 	$handle = opendir($dir);
 	while ($file = readdir($handle)){
-		if($file == '.' OR $file == '..' or $file == 'thumbs')
+		if($file == '.' OR $file == '..' or $file == 'thumbs' or $file == '.DS_Store')
 			continue;
 		else
 			$result_array[]=$file;
