@@ -14,6 +14,20 @@
   background-image: -moz-linear-gradient(center top, #111111, #111111);
   background-position: 0;
 }
+.nav-collapse.in .nav {
+  float: none;
+  text-align: center;
+}
+.nav-collapse.in .nav li {
+  border: thin solid #ccc;
+  margin-bottom: 5px;
+  font-size: 16px;
+  line-height: 32px;
+}
+.nav-collapse.in .nav .dropdown-menu li {
+  border: thin solid #eee;
+  margin-bottom: 5px;
+}
 body {
   background-image: url(../img/bg-body.jpg);
   background-color: transparent;
@@ -29,7 +43,7 @@ body {
   box-shadow: none;
 }
 .navbar-inner .dropdown-menu {
-  background-color: rgba(255, 255, 245, 0.9);
+  background-color: rgba(255, 255, 255, 0.9);
 }
 .navbar-inner .dropdown-menu a:hover {
   background-color: #ccc;

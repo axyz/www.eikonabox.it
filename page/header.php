@@ -52,32 +52,32 @@
             <ul class="nav" style="margin-top:22px;">
               <li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-							portfolio
+							&nbsp;portfolio
 							<i class="icon-caret-down"></i>
 						</a>
 					<ul class="dropdown-menu">
-						<li id="collateral"><a href="<?php echo $basedir;?>page/collateral.php"><i class="icon-caret-right"></i>collateral</a></li>
-						<li id="cover"><a href="<?php echo $basedir;?>page/cover.php"><i class="icon-caret-right"></i>cover</a></li>
-						<li id="figure"><a href="<?php echo $basedir;?>page/pages.php"><i class="icon-caret-right"></i>publications</a></li>
-						<li id="industrial"><a href="<?php echo $basedir;?>page/industrial.php"><i class="icon-caret-right"></i>industrial</a></li>
-						<li id="interiors"><a href="<?php echo $basedir;?>page/interiors.php"><i class="icon-caret-right"></i>interiors</a></li>
-						<li id="portrait"><a href="<?php echo $basedir;?>page/portrait.php"><i class="icon-caret-right"></i>portrait</a></li>
-						<li id="still"><a href="<?php echo $basedir;?>page/still.php"><i class="icon-caret-right"></i>still</a></li>
+						<li id="collateral"><a href="<?php echo $basedir;?>page/collateral.php">&nbsp;collateral&nbsp;</a></li>
+						<li id="cover"><a href="<?php echo $basedir;?>page/cover.php">&nbsp;cover&nbsp;</a></li>
+						<li id="figure"><a href="<?php echo $basedir;?>page/pages.php">&nbsp;publications&nbsp;</a></li>
+						<li id="industrial"><a href="<?php echo $basedir;?>page/industrial.php">&nbsp;industrial&nbsp;</a></li>
+						<li id="interiors"><a href="<?php echo $basedir;?>page/interiors.php">&nbsp;interiors&nbsp;</a></li>
+						<li id="portrait"><a href="<?php echo $basedir;?>page/portrait.php">&nbsp;portrait&nbsp;</a></li>
+						<li id="still"><a href="<?php echo $basedir;?>page/still.php">&nbsp;still&nbsp;</a></li>
           </ul>
 				  </li>
-          <li class="dropdown">/&nbsp;
+          <li class="dropdown">/
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-              reportage
+              &nbsp;reportage
               <i class="icon-caret-down"></i>
             </a>
           <ul class="dropdown-menu">
-              <li id="boogie"><a href="<?php echo $basedir;?>page/boogie.php">&nbsp;&nbsp;<i class="icon-caret-right"></i>boogie nights</a></li>
-              <li id="travel"><a href="<?php echo $basedir;?>page/travel.php">&nbsp;&nbsp;<i class="icon-caret-right"></i>travel</a></li>
-              <li id="multi"><a href="<?php echo $basedir;?>page/multi.php">&nbsp;&nbsp;<i class="icon-caret-right"></i>multiethnic italy</a></li>
+              <li id="boogie"><a href="<?php echo $basedir;?>page/boogie.php">&nbsp;boogie nights&nbsp;</a></li>
+              <li id="travel"><a href="<?php echo $basedir;?>page/travel.php">&nbsp;travel&nbsp;</a></li>
+              <li id="multi"><a href="<?php echo $basedir;?>page/multi.php">&nbsp;multiethnic italy&nbsp;</a></li>
           </ul>
           </li>
-              <li id="about">/&nbsp;<a href="<?php echo $basedir;?>page/about.php">about</a></li>
-              <li id="contact">/&nbsp;<a href="<?php echo $basedir;?>page/contact.php">contact</a></li>
+              <li id="about">/&nbsp;<a href="<?php echo $basedir;?>page/about.php">&nbsp;about&nbsp;</a></li>
+              <li id="contact">/&nbsp;<a href="<?php echo $basedir;?>page/contact.php">&nbsp;contact&nbsp;</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
