@@ -49,7 +49,7 @@
           </a>
           <a class="brand" href="<?php echo $basedir;?>"><img src="<?php echo $basedir;?>img/eikona_guido.png" alt="" ></a>
           <div class="nav-collapse">
-            <ul class="nav" style="margin-top:13px;">
+            <ul class="nav" style="margin-top:22px;">
               <li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
 							portfolio

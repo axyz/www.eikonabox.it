@@ -3,9 +3,9 @@
 /* ! Layout for desktop version   */
 /* ============================== */
 .shadow {
-  box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
-  -moz-box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
-  -webkit-box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
+  box-shadow: 0 1px 3px rgba(34, 25, 25, 0.7);
+  -moz-box-shadow: 0 1px 3px rgba(34, 25, 25, 0.7);
+  -webkit-box-shadow: 0 1px 3px rgba(34, 25, 25, 0.7);
 }
 body {
   background-image: url(../img/bg-body.jpg);
@@ -16,12 +16,13 @@ body {
   padding-right: 0px;
 }
 .navbar-inner {
+  min-height: 65px;
   background-image: none;
-  background-color: rgba(245, 245, 245, 0.9);
+  background-color: rgba(255, 255, 255, 0.9);
   box-shadow: none;
 }
 .navbar-inner .dropdown-menu {
-  background-color: rgba(245, 245, 245, 0.9);
+  background-color: rgba(255, 255, 245, 0.9);
 }
 .navbar-inner .dropdown-menu a:hover {
   background-color: #ccc;
@@ -51,8 +52,9 @@ body {
   background-color: #111;
 }
 .navbar-inner .brand {
-  margin-top: 5px;
+  margin-top: 12px;
   margin-bottom: 2px;
+  margin-left: -10px;
 }
 .thumbnails > li {
   margin-bottom: 10px;
@@ -61,6 +63,7 @@ body {
   margin: 0;
   padding: 0;
   margin-left: 30px;
+  margin-top: 30px;
 }
 #photoswipe,
 #videogallery {
@@ -69,9 +72,9 @@ body {
 #photoswipe li .thumbnails,
 #videogallery li .thumbnails {
   border: none;
-  box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
-  -moz-box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
-  -webkit-box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
+  box-shadow: 0 1px 3px rgba(34, 25, 25, 0.7);
+  -moz-box-shadow: 0 1px 3px rgba(34, 25, 25, 0.7);
+  -webkit-box-shadow: 0 1px 3px rgba(34, 25, 25, 0.7);
   margin-left: 0px;
   display: block;
 }
@@ -117,6 +120,9 @@ body {
 }
 #footer #contact {
   text-align: center;
+}
+.row {
+  margin-left: -30px;
 }
 /* FlexSlider Necessary Styles
 *********************************/.flex-container a:active,
@@ -212,6 +218,11 @@ html[xmlns] .slides {
   }
 }
 @media (min-width: 979px) and (max-width: 1440px) {
+  .navbar-inner .brand .brand {
+    margin-top: 12px;
+    margin-bottom: 2px;
+    margin-left: 0px;
+  }
   #homewall li {
     float: left;
     width: 16.6666%;
@@ -222,6 +233,15 @@ html[xmlns] .slides {
   }
 }
 @media (min-width: 768px) and (max-width: 979px) {
+  .navbar-inner .brand {
+    margin-top: 12px;
+    margin-bottom: 2px;
+    margin-left: -5px;
+  }
+  #photoswipe,
+  #videogallery {
+    margin-top: 0px;
+  }
   #homewall li {
     float: left;
     width: 16.6666%;
@@ -232,6 +252,14 @@ html[xmlns] .slides {
   }
 }
 @media handheld, only screen and (max-width: 767px) {
+  .row {
+    margin-left: 0px;
+  }
+  .navbar-inner .brand {
+    margin-top: 12px;
+    margin-bottom: 2px;
+    margin-left: 0px;
+  }
   #homewall li {
     float: left;
     width: 16.6666%;
@@ -247,6 +275,14 @@ html[xmlns] .slides {
   }
 }
 @media handheld, only screen and (max-width: 320px) {
+  .row {
+    margin-left: 0px;
+  }
+  .navbar-inner .brand {
+    margin-top: 12px;
+    margin-bottom: 2px;
+    margin-left: 0px;
+  }
   #homewall li {
     float: left;
     width: 100%;
