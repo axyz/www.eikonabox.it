@@ -7,6 +7,13 @@
   -moz-box-shadow: 0 1px 3px rgba(34, 25, 25, 0.7);
   -webkit-box-shadow: 0 1px 3px rgba(34, 25, 25, 0.7);
 }
+.navbar .btn-navbar {
+  background-image: -moz-linear-gradient(center top, #111111, #111111);
+}
+.btn-navbar:hover {
+  background-image: -moz-linear-gradient(center top, #111111, #111111);
+  background-position: 0;
+}
 body {
   background-image: url(../img/bg-body.jpg);
   background-color: transparent;

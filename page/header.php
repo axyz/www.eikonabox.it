@@ -42,7 +42,7 @@
     <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container-fluid">
-          <a style="margin-top:10px;" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+          <a style="margin-top:18px;" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
