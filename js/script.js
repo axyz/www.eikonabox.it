@@ -76,6 +76,7 @@ function( newElements ) {
   $('#photoswipe a').fancybox({
         padding : 0,
         beforeShow: function () {
+            $('.fancybox-wrap').hide();
             if (this.title) {
                 // New line
                 this.title += '<br /><br />';
@@ -89,9 +90,13 @@ function( newElements ) {
                 // Add tweet button
                 this.title += '<a href="https://twitter.com/share" class="social-icon twitter-share-button" data-related="guidofua" data-hashtags="photography"><i style="font-size: 25px;" class="icon-twitter icon-large"></i></a>';
             }
+            
         },
         afterShow: function() {
+            $('.fancybox-wrap').hide();
             $.fancybox.update();
+            $('.fancybox-opened .fancybox-title').css('margin-top', '-65px');
+            $('.fancybox-wrap').show();
         },
         helpers : {
             title : {
