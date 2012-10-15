@@ -5,7 +5,6 @@
 }
 .home-section {
 	height:200px;
-  
 }
 
 .span4,.span12{
@@ -21,6 +20,12 @@
 	-ms-transform:scale(1.1);
 	-o-transform:scale(1.1);
 	transform:scale(1.1);
+
+	-webkit-filter: grayscale();
+	-moz-filter: grayscale();
+	-ms-filter: grayscale();
+	-o-filter: grayscale();
+	filter: grayscale();
 }
 .home-section-title {
 	position: relative;
@@ -31,6 +36,11 @@
   text-align: center;
   height:20%;
   padding-top: 10px;
+}
+
+.home-section:hover .home-section-title{
+	color: #fff;
+	background-color: rgba(1,1,1,.7);
 }
 .home a{
 	text-decoration: none;
