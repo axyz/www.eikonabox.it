@@ -5,21 +5,22 @@
 }
 .home-section {
 	height:200px;
-  -webkit-transition: all 0.3s ease-out;  /* Safari 3.2+, Chrome */
+  
+}
+
+.span4,.span12{
+	-webkit-transition: all 0.3s ease-out;  /* Safari 3.2+, Chrome */
      -moz-transition: all 0.3s ease-out;  /* Firefox 4-15 */
        -o-transition: all 0.3s ease-out;  /* Opera 10.5–12.00 */
           transition: all 0.3s ease-out;  /* Firefox 16+, Opera 12.50+ */
 }
 
-.home-section:hover {
-	-webkit-filter:grayscale(50%) hue-rotate(15deg) contrast(120%);
-	-moz-filter:grayscale(100%);
-	-ms-filter:grayscale(100%);
-	-o-filter:grayscale(100%);
-	filter:grayscale(100%);
-
+.span4:hover,.span12:hover {
 	-webkit-transform:scale(1.1);
 	-moz-transform:scale(1.1);
+	-ms-transform:scale(1.1);
+	-o-transform:scale(1.1);
+	transform:scale(1.1);
 }
 .home-section-title {
 	position: relative;
