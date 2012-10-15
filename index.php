@@ -30,11 +30,11 @@
 .home-section-title {
 	position: relative;
 	background-color: rgba(245,245,245,0.7);
-	bottom:-80%;
+	bottom:-79%;
 	font-family: 'Carrois Gothic SC', sans-serif;
   font-size: 42px;
   text-align: center;
-  height:20%;
+  height:16%;
   padding-top: 10px;
 }
 
