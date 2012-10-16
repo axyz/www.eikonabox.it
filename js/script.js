@@ -25,6 +25,7 @@ function obclose(){
   }
 
 $(function(){
+
 	setActiveNav();
 
 	$('.flexslider').flexslider({
