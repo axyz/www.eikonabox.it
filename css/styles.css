@@ -15,10 +15,18 @@ div {
   -webkit-box-shadow: 0 1px 3px rgba(34, 25, 25, 0.7);
 }
 .navbar .btn-navbar {
-  background-image: -moz-linear-gradient(center top, #111111, #111111);
+  background-image: -moz-linear-gradient(top, #111111, #111111);
+  background-image: -webkit-linear-gradient(top, #111111, #111111);
+  background-image: -ms-linear-gradient(top, #111111, #111111);
+  background-image: -o-linear-gradient(top, #111111, #111111);
+  background-image: linear-gradient(top, #111111, #111111);
 }
 .btn-navbar:hover {
-  background-image: -moz-linear-gradient(center top, #111111, #111111);
+  background-image: -moz-linear-gradient(top, #111111, #111111);
+  background-image: -webkit-linear-gradient(top, #111111, #111111);
+  background-image: -ms-linear-gradient(top, #111111, #111111);
+  background-image: -o-linear-gradient(top, #111111, #111111);
+  background-image: linear-gradient(top, #111111, #111111);
   background-position: 0;
 }
 .nav-collapse.in .nav {
@@ -149,10 +157,21 @@ body {
 #footer .nav {
   float: left;
 }
+#footer .navbar-inner {
+  background-color: transparent;
+}
 #footer #social {
   float: right;
+  font-size: 18px;
 }
-#footer #contact {
+#footer #social .active a {
+  color: #111;
+}
+#footer #social .active a:hover {
+  color: #fff;
+  background-color: #111;
+}
+#footer #copyright {
   text-align: center;
 }
 .row {
@@ -306,6 +325,10 @@ html[xmlns] .slides {
     margin: 0;
     padding: 0;
     margin-left: -15px;
+  }
+  #footer #social {
+    float: left;
+    font-size: 36px;
   }
 }
 @media handheld, only screen and (max-width: 320px) {
