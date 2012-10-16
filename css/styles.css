@@ -168,6 +168,10 @@ body {
   padding: 0px;
   margin-bottom: 0px;
 }
+#footer {
+  background-color: #f0f0f0;
+  padding-bottom: 50px;
+}
 #footer .nav {
   float: left;
 }
