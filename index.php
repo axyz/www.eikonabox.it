@@ -7,6 +7,10 @@
 	height:200px;
 }
 
+.home-section.large {
+	height: 300px;
+}
+
 .span4,.span12{
 	-webkit-transition: all 0.3s ease-out;  /* Safari 3.2+, Chrome */
      -moz-transition: all 0.3s ease-out;  /* Firefox 4-15 */
@@ -32,10 +36,10 @@
 	background-color: rgba(245,245,245,0.7);
 	bottom:-79%;
 	font-family: 'Carrois Gothic SC', sans-serif;
-  font-size: 42px;
+  font-size: 28px;
   text-align: center;
   height:16%;
-  padding-top: 10px;
+  padding-top: 2%;
 }
 
 .home-section:hover .home-section-title{
@@ -46,6 +50,12 @@
 	text-decoration: none;
 	color: #111;
 }
+
+@media handheld, only screen and (max-width: 767px) {
+	.home-section.large {
+		height: 200px;
+	}
+}
 </style>
 
 <section><br>
@@ -54,7 +64,7 @@
 	<div class="row">
 		<div class="span12 shadow">
 			<a href="<?php echo $basedir;?>page/portrait.php">
-				<div class="home-section" style="background:url(photo/portrait/040.jpg) no-repeat 0px 12%;background-size:100%;" >
+				<div class="home-section large" style="background:url(photo/portrait/040.jpg) no-repeat 0px 12%;background-size:100%;" >
 					<div class="home-section-title">portrait</div>
 				</div>
 			</a>
