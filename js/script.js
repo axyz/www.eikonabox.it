@@ -26,6 +26,8 @@ function obclose(){
 
 $(function(){
 
+  $.support.transition = undefined;
+
 	setActiveNav();
 
 	$('.flexslider').flexslider({

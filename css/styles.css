@@ -9,6 +9,20 @@ div {
   -o-user-select: none;
   user-select: none;
 }
+.collapse {
+  -moz-transition: none;
+  -webkit-transition: none;
+  -ms-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+.collapse.in {
+  -moz-transition: none;
+  -webkit-transition: none;
+  -ms-transition: none;
+  -o-transition: none;
+  transition: none;
+}
 .shadow {
   box-shadow: 0 1px 3px rgba(34, 25, 25, 0.7);
   -moz-box-shadow: 0 1px 3px rgba(34, 25, 25, 0.7);
