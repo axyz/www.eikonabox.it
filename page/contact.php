@@ -148,6 +148,10 @@ if(!isset($hasError)) {
 
 <script type="text/javascript" >
 $(document).ready(function(){
+
+	$('#header-container').removeClass('container-fluid').addClass('container');
+	$('#footer-container').removeClass('container-fluid').addClass('container');
+
 // validate signup form on keyup and submit
 var validator = $("#contactform").validate({
 	errorClass:'error',

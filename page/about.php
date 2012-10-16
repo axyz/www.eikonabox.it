@@ -90,3 +90,9 @@ Sartoria Partenopea, Antichi Telai, Mabro, Cravatte Ulturale, Cucinelli, Keyword
 </section>
 
 <?php include("footer.php"); ?>
+<script type="text/javascript">
+$(function(){
+    $('#header-container').removeClass('container-fluid').addClass('container');
+    $('#footer-container').removeClass('container-fluid').addClass('container');
+});
+</script>
