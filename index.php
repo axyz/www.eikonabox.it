@@ -33,7 +33,7 @@
 }
 .home-section-title {
 	position: relative;
-	background-color: rgba(245,245,245,0.7);
+	background-color: rgba(245,245,245,0.6);
 	bottom:-79%;
 	font-family: 'Carrois Gothic SC', sans-serif;
   font-size: 28px;
