@@ -82,14 +82,14 @@
 		<div class="span4 shadow">
 			<a href="#">
 				<div class="home-section" style="background:url(photo/portrait/025.jpg) no-repeat 0px 60%;background-size:100%;" >
-					<div class="home-section-title">corporate</div>
+					<div class="home-section-title">reportage</div>
 				</div>
 			</a>
 		</div>
 		<div class="span4 shadow">
 			<a href="#">
 				<div class="home-section" style="background:url(photo/portrait/026.jpg) no-repeat 0px 9%;background-size:100%;" >
-					<div class="home-section-title">reportage</div>
+					<div class="home-section-title">corporate</div>
 				</div>
 			</a>
 		</div>

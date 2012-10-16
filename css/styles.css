@@ -157,10 +157,21 @@ body {
 #footer .nav {
   float: left;
 }
+#footer .navbar-inner {
+  background-color: transparent;
+}
 #footer #social {
   float: right;
+  font-size: 18px;
 }
-#footer #contact {
+#footer #social .active a {
+  color: #111;
+}
+#footer #social .active a:hover {
+  color: #fff;
+  background-color: #111;
+}
+#footer #copyright {
   text-align: center;
 }
 .row {
@@ -314,6 +325,10 @@ html[xmlns] .slides {
     margin: 0;
     padding: 0;
     margin-left: -15px;
+  }
+  #footer #social {
+    float: left;
+    font-size: 36px;
   }
 }
 @media handheld, only screen and (max-width: 320px) {
