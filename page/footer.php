@@ -1,17 +1,17 @@
 <footer><div id="footer"><hr>
-	<div class="container-fluid">
+	<div id="footer-container" class="container-fluid">
 		<div class="row-fluid">
 			<div class="navbar">
 				<div class="navbar-inner">
 					<ul class="nav hidden-phone">
             <li><a href="<?php echo $basedir;?>">home</a></li>
-            <li>/&nbsp;<a href="<?php echo $basedir;?>page/about.php">projects</a></li>
-            <li>/&nbsp;<a href="<?php echo $basedir;?>page/about.php">portrait</a></li>
-            <li>/&nbsp;<a href="<?php echo $basedir;?>page/about.php">reportage</a></li>
-            <li>/&nbsp;<a href="<?php echo $basedir;?>page/about.php">corporate</a></li>
-            <li>/&nbsp;<a href="<?php echo $basedir;?>page/about.php">publication</a></li>
-            <li>/&nbsp;<a href="<?php echo $basedir;?>page/about.php">food</a></li>
-            <li>/&nbsp;<a href="<?php echo $basedir;?>page/about.php">video</a></li>
+            <li class="hidden-tablet">/&nbsp;<a href="<?php echo $basedir;?>page/about.php">projects</a></li>
+            <li class="hidden-tablet">/&nbsp;<a href="<?php echo $basedir;?>page/about.php">portrait</a></li>
+            <li class="hidden-tablet">/&nbsp;<a href="<?php echo $basedir;?>page/about.php">reportage</a></li>
+            <li class="hidden-tablet">/&nbsp;<a href="<?php echo $basedir;?>page/about.php">corporate</a></li>
+            <li class="hidden-tablet">/&nbsp;<a href="<?php echo $basedir;?>page/about.php">publication</a></li>
+            <li class="hidden-tablet">/&nbsp;<a href="<?php echo $basedir;?>page/about.php">food</a></li>
+            <li class="hidden-tablet">/&nbsp;<a href="<?php echo $basedir;?>page/about.php">video</a></li>
             <li>/&nbsp;<a href="<?php echo $basedir;?>page/about.php">about</a></li>
             <li>/&nbsp;<a href="<?php echo $basedir;?>page/contact.php">contact</a></li>
             <li>/&nbsp;<a href="http://www.guidofua.com/blog" target="_blank">blog</a></li>

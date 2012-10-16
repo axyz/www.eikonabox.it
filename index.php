@@ -123,3 +123,9 @@
 </section>
 
 <?php include("page/footer.php"); ?> 
+<script type="text/javascript">
+$(function(){
+	$('#header-container').removeClass('container-fluid').addClass('container');
+	$('#footer-container').removeClass('container-fluid').addClass('container');
+});
+</script>
