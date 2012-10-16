@@ -63,9 +63,9 @@
 
 	<div class="row">
 		<div class="span12 shadow">
-			<a href="<?php echo $basedir;?>page/portrait.php">
+			<a href="#">
 				<div class="home-section large" style="background:url(photo/portrait/040.jpg) no-repeat 0px 12%;background-size:100%;" >
-					<div class="home-section-title">portrait</div>
+					<div class="home-section-title">projects</div>
 				</div>
 			</a>
 		</div>
@@ -73,23 +73,23 @@
 
 	<div class="row">
 		<div class="span4 shadow">
-			<a href="#">
+			<a href="<?php echo $basedir;?>page/portrait.php">
 				<div class="home-section" style="background:url(photo/portrait/024.jpg) no-repeat 0px 35%;background-size:100%;" >
-					<div class="home-section-title">reportage</div>
+					<div class="home-section-title">portrait</div>
 				</div>
 			</a>
 		</div>
 		<div class="span4 shadow">
 			<a href="#">
 				<div class="home-section" style="background:url(photo/portrait/025.jpg) no-repeat 0px 60%;background-size:100%;" >
-					<div class="home-section-title">projects</div>
+					<div class="home-section-title">corporate</div>
 				</div>
 			</a>
 		</div>
 		<div class="span4 shadow">
 			<a href="#">
 				<div class="home-section" style="background:url(photo/portrait/026.jpg) no-repeat 0px 9%;background-size:100%;" >
-					<div class="home-section-title">publication</div>
+					<div class="home-section-title">reportage</div>
 				</div>
 			</a>
 		</div>
@@ -99,21 +99,21 @@
 		<div class="span4 shadow">
 			<a href="#">
 				<div class="home-section" style="background:url(photo/portrait/032.jpg) no-repeat 0px 9%;background-size:100%;" >
-					<div class="home-section-title">corporate</div>
+					<div class="home-section-title">publication</div>
 				</div>
 			</a>
 		</div>
 		<div class="span4 shadow">
 			<a href="#">
 				<div class="home-section" style="background:url(photo/portrait/033.jpg) no-repeat 0px 32%;background-size:100%;" >
-					<div class="home-section-title">video</div>
+					<div class="home-section-title">food</div>
 				</div>
 			</a>
 		</div>
 		<div class="span4 shadow">
 			<a href="#">
 				<div class="home-section" style="background:url(photo/portrait/034.jpg) no-repeat 0px 7%;background-size:100%;" >
-					<div class="home-section-title">food</div>
+					<div class="home-section-title">video</div>
 				</div>
 			</a>
 		</div>
