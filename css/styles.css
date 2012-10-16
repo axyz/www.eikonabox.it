@@ -166,6 +166,7 @@ body {
 }
 #footer #social .active a {
   color: #111;
+  background-color: transparent;
 }
 #footer #social .active a:hover {
   color: #fff;
