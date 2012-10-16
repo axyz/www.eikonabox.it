@@ -24,12 +24,6 @@
 	-ms-transform:scale(1.1);
 	-o-transform:scale(1.1);
 	transform:scale(1.1);
-
-	-webkit-filter: grayscale();
-	-moz-filter: grayscale();
-	-ms-filter: grayscale();
-	-o-filter: grayscale();
-	filter: grayscale();
 }
 .home-section-title {
 	position: relative;
