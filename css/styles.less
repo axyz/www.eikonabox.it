@@ -106,6 +106,7 @@ div {
 				font-family: 'Carrois Gothic SC', sans-serif;
     		font-size: 14px;
    			float: right;
+   			margin:0;
    			li a {
    				color: #111;
    			}
@@ -237,6 +238,7 @@ div {
 	}
 
 	.inner-page {
+
 		h1 a{
 			color: #111;
 			&:hover{
@@ -268,6 +270,11 @@ div {
 		.shadow:hover {
 			-webkit-box-shadow: 10px 10px 30px rgba(34, 25, 25, 0.7);
 		}
+
+	}
+
+	.brand-fix {
+		margin-left: -20px !important;
 	}
 
 
@@ -356,10 +363,22 @@ html[xmlns] .slides {display: block;}
 	.box{
 		width: 19%;
 	}
+
+	.brand-fix {
+		margin-left: 0px !important;
+		padding-left: 0px !important;
+	}
+}
+
+@media (min-width: 1200px) and (max-width: 1440px) {
+	.brand-fix {
+		margin-left: 0px !important;
+		padding-left: 0px !important;
+	}
 }
 
 
-@media (min-width: 979px) and (max-width: 1440px) {
+@media (min-width: 979px) and (max-width: 1200px) {
 	body {
 		
 	}
@@ -386,6 +405,17 @@ html[xmlns] .slides {display: block;}
 
 	.box{
 		width: 24%;
+	}
+
+	.brand-fix {
+		margin-left: -10px !important;
+		padding-left: 0px !important;
+	}
+
+	.inner-page {
+		.page-header {
+			margin-left: -10px !important;
+		}
 	}
 }
 
@@ -418,6 +448,10 @@ html[xmlns] .slides {display: block;}
 
 	.box{
 		width: 32%;
+	}
+
+	.brand-fix {
+		margin-left: auto !important;
 	}
 
 }
@@ -465,6 +499,10 @@ html[xmlns] .slides {display: block;}
 			float:left;
 			font-size: 36px;
 		}
+	}
+
+	.brand-fix {
+		margin-left: auto !important;
 	}
 
 }

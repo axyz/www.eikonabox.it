@@ -92,6 +92,7 @@ body {
   font-family: 'Carrois Gothic SC', sans-serif;
   font-size: 14px;
   float: right;
+  margin: 0;
 }
 .navbar-inner .nav li a {
   color: #111;
@@ -227,6 +228,9 @@ body {
 .inner-page .shadow:hover {
   -webkit-box-shadow: 10px 10px 30px rgba(34, 25, 25, 0.7);
 }
+.brand-fix {
+  margin-left: -20px !important;
+}
 /* FlexSlider Necessary Styles
 *********************************/.flex-container a:active,
 .flexslider a:active,
@@ -319,8 +323,18 @@ html[xmlns] .slides {
   .box {
     width: 19%;
   }
+  .brand-fix {
+    margin-left: 0px !important;
+    padding-left: 0px !important;
+  }
 }
-@media (min-width: 979px) and (max-width: 1440px) {
+@media (min-width: 1200px) and (max-width: 1440px) {
+  .brand-fix {
+    margin-left: 0px !important;
+    padding-left: 0px !important;
+  }
+}
+@media (min-width: 979px) and (max-width: 1200px) {
   .navbar-inner .brand .brand {
     margin-top: 12px;
     margin-bottom: 2px;
@@ -333,6 +347,13 @@ html[xmlns] .slides {
   }
   .box {
     width: 24%;
+  }
+  .brand-fix {
+    margin-left: -10px !important;
+    padding-left: 0px !important;
+  }
+  .inner-page .page-header {
+    margin-left: -10px !important;
   }
 }
 @media (min-width: 768px) and (max-width: 979px) {
@@ -352,6 +373,9 @@ html[xmlns] .slides {
   }
   .box {
     width: 32%;
+  }
+  .brand-fix {
+    margin-left: auto !important;
   }
 }
 @media handheld, only screen and (max-width: 767px) {
@@ -379,6 +403,9 @@ html[xmlns] .slides {
   #footer #social {
     float: left;
     font-size: 36px;
+  }
+  .brand-fix {
+    margin-left: auto !important;
   }
 }
 @media handheld, only screen and (max-width: 320px) {
