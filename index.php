@@ -57,7 +57,7 @@
 
 	<div class="row">
 		<div class="span12 shadow">
-			<a href="#">
+			<a href="<?php echo $basedir;?>page/projects.php">
 				<div class="home-section large" style="background:url(photo/portrait/040.jpg) no-repeat 0px 12%;background-size:100%;" >
 					<div class="home-section-title">projects</div>
 				</div>
