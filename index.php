@@ -50,9 +50,9 @@
 
 	<div class="row">
 		<div class="span12 shadow">
-			<a href="<?php echo $basedir;?>page/projects.php">
-				<div class="home-section large" style="background:url(photo/portrait/040.jpg) no-repeat 0px 12%;background-size:100%;" >
-					<div class="home-section-title">projects</div>
+			<a href="<?php echo $basedir;?>page/portrait.php">
+				<div class="home-section large" style="background:url(photo/portrait/056.jpg) no-repeat 0px 47%;background-size:100%;" >
+					<div class="home-section-title">portrait</div>
 				</div>
 			</a>
 		</div>
@@ -60,23 +60,23 @@
 
 	<div class="row">
 		<div class="span4 shadow">
-			<a href="<?php echo $basedir;?>page/portrait.php">
-				<div class="home-section" style="background:url(photo/portrait/024.jpg) no-repeat 0px 35%;background-size:100%;" >
-					<div class="home-section-title">portrait</div>
-				</div>
-			</a>
-		</div>
-		<div class="span4 shadow">
-			<a href="#">
-				<div class="home-section" style="background:url(photo/portrait/025.jpg) no-repeat 0px 60%;background-size:100%;" >
+			<a href="<?php echo $basedir;?>page/reportage.php">
+				<div class="home-section" style="background:url(photo/reportage/travel/002-MOZAMBICO-017.jpg) no-repeat 0px 15%;background-size:100%;" >
 					<div class="home-section-title">reportage</div>
 				</div>
 			</a>
 		</div>
 		<div class="span4 shadow">
-			<a href="#">
-				<div class="home-section" style="background:url(photo/portrait/026.jpg) no-repeat 0px 9%;background-size:100%;" >
+			<a href="<?php echo $basedir;?>page/corporate.php">
+				<div class="home-section" style="background:url(img/home/corporate.jpg) no-repeat 0px 70%;background-size:100%;" >
 					<div class="home-section-title">corporate</div>
+				</div>
+			</a>
+		</div>
+		<div class="span4 shadow">
+			<a href="<?php echo $basedir;?>page/food.php">
+				<div class="home-section" style="background:url(photo/interiors/21.jpg) no-repeat 0px 70%;background-size:100%;" >
+					<div class="home-section-title">food</div>
 				</div>
 			</a>
 		</div>
@@ -84,21 +84,21 @@
 
 	<div class="row">
 		<div class="span4 shadow">
-			<a href="#">
-				<div class="home-section" style="background:url(photo/portrait/032.jpg) no-repeat 0px 9%;background-size:100%;" >
+			<a href="<?php echo $basedir;?>page/publication.php">
+				<div class="home-section" style="background:url(photo/cover/16.jpg) no-repeat 0px 0%;background-size:100%;" >
 					<div class="home-section-title">publication</div>
 				</div>
 			</a>
 		</div>
 		<div class="span4 shadow">
-			<a href="#">
-				<div class="home-section" style="background:url(photo/portrait/033.jpg) no-repeat 0px 32%;background-size:100%;" >
-					<div class="home-section-title">food</div>
+			<a href="<?php echo $basedir;?>page/projects.php">
+				<div class="home-section" style="background:url(img/home/projects.jpg) no-repeat 0px 65%;background-size:100%;" >
+					<div class="home-section-title">projects</div>
 				</div>
 			</a>
 		</div>
 		<div class="span4 shadow">
-			<a href="#">
+			<a href="<?php echo $basedir;?>page/video.php">
 				<div class="home-section" style="background:url(photo/portrait/034.jpg) no-repeat 0px 7%;background-size:100%;" >
 					<div class="home-section-title">video</div>
 				</div>

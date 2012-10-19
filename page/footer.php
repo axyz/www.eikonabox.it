@@ -5,12 +5,12 @@
 				<div class="navbar-inner">
 					<ul class="nav hidden-phone">
             <li><a href="<?php echo $basedir;?>">home</a></li>
-            <li class="hidden-tablet">/&nbsp;<a href="<?php echo $basedir;?>page/about.php">projects</a></li>
             <li class="hidden-tablet">/&nbsp;<a href="<?php echo $basedir;?>page/about.php">portrait</a></li>
             <li class="hidden-tablet">/&nbsp;<a href="<?php echo $basedir;?>page/about.php">reportage</a></li>
             <li class="hidden-tablet">/&nbsp;<a href="<?php echo $basedir;?>page/about.php">corporate</a></li>
-            <li class="hidden-tablet">/&nbsp;<a href="<?php echo $basedir;?>page/about.php">publication</a></li>
             <li class="hidden-tablet">/&nbsp;<a href="<?php echo $basedir;?>page/about.php">food</a></li>
+            <li class="hidden-tablet">/&nbsp;<a href="<?php echo $basedir;?>page/about.php">publication</a></li>
+            <li class="hidden-tablet">/&nbsp;<a href="<?php echo $basedir;?>page/about.php">projects</a></li>
             <li class="hidden-tablet">/&nbsp;<a href="<?php echo $basedir;?>page/about.php">video</a></li>
             <li>/&nbsp;<a href="<?php echo $basedir;?>page/about.php">about</a></li>
             <li>/&nbsp;<a href="<?php echo $basedir;?>page/contact.php">contact</a></li>
