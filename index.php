@@ -11,19 +11,12 @@
 	height: 300px;
 }
 
-.span4,.span12{
-	-webkit-transition: all 0.3s ease-out;  /* Safari 3.2+, Chrome */
-     -moz-transition: all 0.3s ease-out;  /* Firefox 4-15 */
-       -o-transition: all 0.3s ease-out;  /* Opera 10.5–12.00 */
-          transition: all 0.3s ease-out;  /* Firefox 16+, Opera 12.50+ */
-}
-
 .span4:hover,.span12:hover {
-	-webkit-transform:scale(1.1);
-	-moz-transform:scale(1.1);
-	-ms-transform:scale(1.1);
-	-o-transform:scale(1.1);
-	transform:scale(1.1);
+	-webkit-box-shadow: 8px 8px 25px rgba(34, 25, 25, 0.7);
+	-moz-box-shadow: 8px 8px 25px rgba(34, 25, 25, 0.7);
+	-ms-box-shadow: 8px 8px 25px rgba(34, 25, 25, 0.7);
+	-o-box-shadow: 8px 8px 25px rgba(34, 25, 25, 0.7);
+	box-shadow: 8px 8px 25px rgba(34, 25, 25, 0.7);
 }
 .home-section-title {
 	position: relative;
