@@ -172,6 +172,7 @@ body {
 .longtext {
   line-height: 1.5em;
   text-align: justify;
+  font-family: 'PT Sans';
 }
 #footer {
   background-color: #f0f0f0;
@@ -219,6 +220,9 @@ body {
   -o-box-shadow: 8px 8px 25px rgba(34, 25, 25, 0.7);
   box-shadow: 8px 8px 25px rgba(34, 25, 25, 0.7);
 }
+.inner-page .inner-section-thumb:hover {
+  -webkit-box-shadow: 10px 10px 30px rgba(34, 25, 25, 0.7);
+}
 .inner-page .inner-section-thumb:hover .inner-section-title {
   color: #fff;
   background-color: rgba(1, 1, 1, 0.7);
@@ -235,13 +239,28 @@ body {
 }
 .inner-page .inner-section-caption {
   overflow: auto;
-  height: 262px;
+  height: 280px;
+  background-color: #fff;
+  padding: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-family: 'PT Sans';
+  color: #333;
+}
+.inner-page .inner-section-caption b {
+  font-weight: 900;
+  font-variant: small-caps;
+  font-size: 1.5em;
+  color: #222;
+}
+.inner-page .inner-section-caption p:first-line {
+  font-variant: small-caps;
+  font-weight: 900;
+  font-size: 1.1em;
+  color: #222;
 }
 .inner-page .inner-section-caption-container {
   height: 300px;
-}
-.inner-page .shadow:hover {
-  -webkit-box-shadow: 10px 10px 30px rgba(34, 25, 25, 0.7);
 }
 .brand-fix {
   margin-left: -20px !important;

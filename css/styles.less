@@ -201,6 +201,7 @@ div {
 	.longtext {
 		line-height: 1.5em;
 		text-align: justify;
+		font-family: 'PT Sans';
 	}
 
 	#footer {
@@ -258,9 +259,12 @@ div {
 				box-shadow: 8px 8px 25px rgba(34, 25, 25, 0.7);
 			}
 
-			&:hover .inner-section-title {
-				color: #fff;
-				background-color: rgba(1,1,1,.7);
+			&:hover {
+				.inner-section-title {
+					color: #fff;
+					background-color: rgba(1,1,1,.7);
+				}
+				-webkit-box-shadow: 10px 10px 30px rgba(34, 25, 25, 0.7);
 			}
 		}
 
@@ -276,15 +280,31 @@ div {
 		}
 
 		.inner-section-caption {
-			overflow:auto;height: 262px;
+			overflow:auto;height: 280px;
+			background-color: #fff;
+			padding: 10px;
+			padding-right: 20px;
+			padding-left: 20px;
+			font-family: 'PT Sans';
+			color: #333;
+			b {
+				font-weight: 900;
+				font-variant: small-caps;
+				font-size: 1.5em;
+				color: #222;
+			}
+			p {
+					&:first-line {
+						font-variant: small-caps;
+						font-weight: 900;
+						font-size: 1.1em;
+						color: #222;
+					}
+			}
 		}
 
 		.inner-section-caption-container {
 			height:300px;
-		}
-
-		.shadow:hover {
-			-webkit-box-shadow: 10px 10px 30px rgba(34, 25, 25, 0.7);
 		}
 
 	}

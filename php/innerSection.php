@@ -8,7 +8,7 @@ echo "
 				<div class='inner-section-title'><h1>$title</h1></div>
 			</div></a>
 			<div class='span7 inner-section-caption-container'>
-				<div class='inner-section-caption longtext well'>
+				<div class='inner-section-caption longtext shadow'>
 					$text
 				</div>
 			</div>
