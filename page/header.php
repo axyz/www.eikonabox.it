@@ -61,9 +61,9 @@
               <li id="about">/&nbsp;<a href="<?php echo $basedir;?>page/projects.php" title="italian photographer">&nbsp;projects&nbsp;</a></li>
               <li id="about">/&nbsp;<a href="<?php echo $basedir;?>page/video.php" title="italian video production">&nbsp;video&nbsp;</a></li>
         
-              <li id="about">/&nbsp;<a href="<?php echo $basedir;?>page/about.php">&nbsp;about&nbsp;</a></li>
-              <li id="contact">/&nbsp;<a href="<?php echo $basedir;?>page/contact.php">&nbsp;contact&nbsp;</a></li>
-              <li id="contact">/&nbsp;<a href="<?php echo $basedir;?>page/contact.php">&nbsp;blog&nbsp;</a></li>
+              <li id="about">/&nbsp;<a href="<?php echo $basedir;?>page/about.php" title="about us" alt="about us">&nbsp;about&nbsp;</a></li>
+              <li id="contact">/&nbsp;<a href="<?php echo $basedir;?>page/contact.php" title="contact us" alt="contact us">&nbsp;contact&nbsp;</a></li>
+              <li id="contact">/&nbsp;<a href="http://guidofua.com/blog" title="Guido FU&agrave; Photography blog" alt="Guido FU&agrave; Photography blog">&nbsp;blog&nbsp;</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
