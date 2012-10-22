@@ -57,7 +57,7 @@ if(!isset($hasError)) {
 
 <section>
 	<div class="container">
-		<div class="row">
+		<div class="row"><br>
 			<div class="span6">
  				<div class="hero-unit">
  					<legend>Address</legend>
