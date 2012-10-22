@@ -50,7 +50,7 @@
 
 	<div class="row">
 		<div class="span12 shadow">
-			<a href="<?php echo $basedir;?>page/portrait.php">
+			<a href="<?php echo $basedir;?>page/portrait.php" title="italian portrait photographer">
 				<div class="home-section large" style="background:url(photo/portrait/056.jpg) no-repeat 0px 47%;background-size:100%;" >
 					<div class="home-section-title">portrait</div>
 				</div>
@@ -60,21 +60,21 @@
 
 	<div class="row">
 		<div class="span4 shadow">
-			<a href="<?php echo $basedir;?>page/reportage.php">
+			<a href="<?php echo $basedir;?>page/reportage.php" title="italian reportage photographer">
 				<div class="home-section" style="background:url(img/home/reportage.jpg) no-repeat 0px 15%;background-size:100%;" >
 					<div class="home-section-title">reportage</div>
 				</div>
 			</a>
 		</div>
 		<div class="span4 shadow">
-			<a href="<?php echo $basedir;?>page/corporate.php">
+			<a href="<?php echo $basedir;?>page/corporate.php" title="italian corporate photographer">
 				<div class="home-section" style="background:url(img/home/corporate.jpg) no-repeat 0px 70%;background-size:100%;" >
 					<div class="home-section-title">corporate</div>
 				</div>
 			</a>
 		</div>
 		<div class="span4 shadow">
-			<a href="<?php echo $basedir;?>page/food.php">
+			<a href="<?php echo $basedir;?>page/food.php" title="italian food photographer">
 				<div class="home-section" style="background:url(photo/interiors/21.jpg) no-repeat 0px 70%;background-size:100%;" >
 					<div class="home-section-title">food</div>
 				</div>
@@ -84,21 +84,21 @@
 
 	<div class="row">
 		<div class="span4 shadow">
-			<a href="<?php echo $basedir;?>page/publication.php">
+			<a href="<?php echo $basedir;?>page/publication.php" title="italian editorial photographer">
 				<div class="home-section" style="background:url(img/home/publication.jpg) no-repeat 0px 18%;background-size:100%;" >
 					<div class="home-section-title">publication</div>
 				</div>
 			</a>
 		</div>
 		<div class="span4 shadow">
-			<a href="<?php echo $basedir;?>page/projects.php">
+			<a href="<?php echo $basedir;?>page/projects.php" title="italian photographer">
 				<div class="home-section" style="background:url(img/home/projects.jpg) no-repeat 0px 80%;background-size:100%;" >
 					<div class="home-section-title">projects</div>
 				</div>
 			</a>
 		</div>
 		<div class="span4 shadow">
-			<a href="<?php echo $basedir;?>page/video.php">
+			<a href="<?php echo $basedir;?>page/video.php" title="italian video production">
 				<div class="home-section" style="background:url(photo/portrait/034.jpg) no-repeat 0px 7%;background-size:100%;" >
 					<div class="home-section-title">video</div>
 				</div>

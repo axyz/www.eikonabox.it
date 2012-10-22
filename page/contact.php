@@ -68,6 +68,7 @@ if(!isset($hasError)) {
  						mobile: +39 3356053840
  					</address>
 					<iframe style="width:100%;height:300px;" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.it/maps?f=q&amp;source=s_q&amp;hl=it&amp;geocode=&amp;q=Eikona+Photography+and+Digital+Imaging,+Via+degli+Anemoni,+Roma,+RM&amp;aq=3&amp;oq=eikon&amp;sll=41.908557,12.535998&amp;sspn=0.311204,0.676346&amp;t=m&amp;ie=UTF8&amp;hq=Eikona+Photography+and+Digital+Imaging,&amp;hnear=Via+degli+Anemoni,+Roma,+Lazio&amp;ll=41.875756,12.565478&amp;spn=0.006295,0.006295&amp;output=embed"></iframe><br /><small><a href="https://maps.google.it/maps?f=q&amp;source=embed&amp;hl=it&amp;geocode=&amp;q=Eikona+Photography+and+Digital+Imaging,+Via+degli+Anemoni,+Roma,+RM&amp;aq=3&amp;oq=eikon&amp;sll=41.908557,12.535998&amp;sspn=0.311204,0.676346&amp;t=m&amp;ie=UTF8&amp;hq=Eikona+Photography+and+Digital+Imaging,&amp;hnear=Via+degli+Anemoni,+Roma,+Lazio&amp;ll=41.875756,12.565478&amp;spn=0.006295,0.006295" style="color:#0000FF;text-align:left">View larger</a></small>
+ 					<br><br><br><br><br>
  				</div>
  			</div>
  			

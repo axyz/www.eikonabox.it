@@ -4,10 +4,11 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Eikona digital imaging</title>
+    <title>Eikona digital imaging - Italian Photography Studio - Digital Imaging - Multimedia Production - Web Engineering</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="Unknown" >
+    <meta name="description" content="Eikona Photography and Digital Imaging, Professional Studio based in Italy, specialized in portrait, commercial and reportage photography. Web Design and Multimedia Production.">
+    <meta name="author" content="axyzxp@gmail.com" >
+    <meta name="keywords" content="Photographer, Italian Photography, Fotografo, Commercial, Editorial, Portrait, Advertising, Rome, Roma, Italy, Fashion, Pubblicità, Web Design, Multimedia Production, Italia" />
 
     <!-- Le styles -->
     <link href="<?php echo $basedir;?>css/bootstrap.css" rel="stylesheet">
@@ -52,34 +53,17 @@
           <a class="brand" href="<?php echo $basedir;?>"><img src="<?php echo $basedir;?>img/eikona_guido.png" alt="" ></a>
           <div class="nav-collapse">
             <ul class="nav" style="margin-top:22px;">
-              <li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-							&nbsp;portfolio
-							<i class="icon-caret-down"></i>
-						</a>
-					<ul class="dropdown-menu">
-						<li id="collateral"><a href="<?php echo $basedir;?>page/collateral.php">&nbsp;collateral&nbsp;</a></li>
-						<li id="cover"><a href="<?php echo $basedir;?>page/cover.php">&nbsp;cover&nbsp;</a></li>
-						<li id="figure"><a href="<?php echo $basedir;?>page/pages.php">&nbsp;publications&nbsp;</a></li>
-						<li id="industrial"><a href="<?php echo $basedir;?>page/industrial.php">&nbsp;industrial&nbsp;</a></li>
-						<li id="interiors"><a href="<?php echo $basedir;?>page/interiors.php">&nbsp;interiors&nbsp;</a></li>
-						<li id="portrait"><a href="<?php echo $basedir;?>page/portrait.php">&nbsp;portrait&nbsp;</a></li>
-						<li id="still"><a href="<?php echo $basedir;?>page/still.php">&nbsp;still&nbsp;</a></li>
-          </ul>
-				  </li>
-          <li class="dropdown">/
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-              &nbsp;reportage
-              <i class="icon-caret-down"></i>
-            </a>
-          <ul class="dropdown-menu">
-              <li id="boogie"><a href="<?php echo $basedir;?>page/boogie.php">&nbsp;boogie nights&nbsp;</a></li>
-              <li id="travel"><a href="<?php echo $basedir;?>page/travel.php">&nbsp;travel&nbsp;</a></li>
-              <li id="multi"><a href="<?php echo $basedir;?>page/multi.php">&nbsp;multiethnic italy&nbsp;</a></li>
-          </ul>
-          </li>
+              <li id="about"><a href="<?php echo $basedir;?>page/portrait.php" title="italian portrait photographer">&nbsp;portrait&nbsp;</a></li>
+              <li id="about">/&nbsp;<a href="<?php echo $basedir;?>page/reportage.php" title="italian reportage photographer">&nbsp;reportage&nbsp;</a></li>
+              <li id="about">/&nbsp;<a href="<?php echo $basedir;?>page/corporate.php" title="italian corporate photographer">&nbsp;corporate&nbsp;</a></li>
+              <li id="about">/&nbsp;<a href="<?php echo $basedir;?>page/food.php" title="italian food photographer">&nbsp;food&nbsp;</a></li>
+              <li id="about">/&nbsp;<a href="<?php echo $basedir;?>page/publication.php" title="italian publication photographer">&nbsp;publication&nbsp;</a></li>
+              <li id="about">/&nbsp;<a href="<?php echo $basedir;?>page/projects.php" title="italian photographer">&nbsp;projects&nbsp;</a></li>
+              <li id="about">/&nbsp;<a href="<?php echo $basedir;?>page/video.php" title="italian video production">&nbsp;video&nbsp;</a></li>
+        
               <li id="about">/&nbsp;<a href="<?php echo $basedir;?>page/about.php">&nbsp;about&nbsp;</a></li>
               <li id="contact">/&nbsp;<a href="<?php echo $basedir;?>page/contact.php">&nbsp;contact&nbsp;</a></li>
+              <li id="contact">/&nbsp;<a href="<?php echo $basedir;?>page/contact.php">&nbsp;blog&nbsp;</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
