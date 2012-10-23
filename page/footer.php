@@ -12,9 +12,9 @@
             <li class="hidden-tablet">/&nbsp;<a href="<?php echo $basedir;?>page/about.php">publication</a></li>
             <li class="hidden-tablet">/&nbsp;<a href="<?php echo $basedir;?>page/about.php">projects</a></li>
             <li class="hidden-tablet">/&nbsp;<a href="<?php echo $basedir;?>page/about.php">video</a></li>
-            <li>/&nbsp;<a href="<?php echo $basedir;?>page/about.php">about</a></li>
-            <li>/&nbsp;<a href="<?php echo $basedir;?>page/contact.php">contact</a></li>
-            <li>/&nbsp;<a href="http://www.guidofua.com/blog" target="_blank">blog</a></li>
+            <li>/&nbsp;<a style="color:#d60;" href="<?php echo $basedir;?>page/about.php">about</a></li>
+            <li>/&nbsp;<a style="color:#d60;" href="<?php echo $basedir;?>page/contact.php">contact</a></li>
+            <li>/&nbsp;<a style="color:#d60;" href="http://www.guidofua.com/blog" target="_blank">blog</a></li>
           </ul>
           <ul id="social" class="nav">
         		<li><a href="https://www.facebook.com/guido.fua" target="_blank"><i class="icon-facebook"></i></a></li>

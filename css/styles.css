@@ -108,6 +108,12 @@ body {
   background-color: inherit;
   color: inherit;
 }
+.navbar-inner .nav .active a {
+  background-color: inherit;
+}
+.navbar-inner .nav .active a:hover {
+  background-color: #111;
+}
 .navbar-inner .nav li {
   padding-right: 5px;
 }

@@ -61,15 +61,15 @@
               <li id="about"><span class="hidden-tablet hidden-phone">/&nbsp;</span><a href="<?php echo $basedir;?>page/projects.php" title="italian photographer">&nbsp;projects&nbsp;</a></li>
               <li id="about"><span class="hidden-tablet hidden-phone">/&nbsp;</span><a href="<?php echo $basedir;?>page/video.php" title="italian video production">&nbsp;video&nbsp;</a></li>
         
-              <li id="about"><span class="hidden-tablet hidden-phone">/&nbsp;</span><a href="<?php echo $basedir;?>page/about.php" title="about us" alt="about us">&nbsp;about&nbsp;</a></li>
-              <li id="contact"><span class="hidden-tablet hidden-phone">/&nbsp;</span><a href="<?php echo $basedir;?>page/contact.php" title="contact us" alt="contact us">&nbsp;contact&nbsp;</a></li>
-              <li id="contact"><span class="hidden-tablet hidden-phone">/&nbsp;</span><a href="http://guidofua.com/blog" title="Guido FU&agrave; Photography blog" alt="Guido FU&agrave; Photography blog">&nbsp;blog&nbsp;</a></li>
-              <li><span class="hidden-tablet hidden-phone">&nbsp;&nbsp;</span>
-                <a class="social" href="https://www.facebook.com/guido.fua" target="_blank"><i class="icon-facebook"></i></a>
-                <a class="social" href="https://twitter.com/guidofua" target="_blank"><i class="icon-twitter"></i></a>
-                <a class="social" href="http://pinterest.com/guidofua/" target="_blank"><i class="icon-pinterest"></i></a>
-                <a class="social" href="http://www.linkedin.com/in/eikona" target="_blank"><i class="icon-linkedin"></i></a>
-                <a class="social" href="https://plus.google.com/u/0/110372748342070641271" target="_blank"><i class="icon-google-plus"></i></a>
+              <li id="about"><span class="hidden-tablet hidden-phone">/&nbsp;</span><a style="color:#d60;" href="<?php echo $basedir;?>page/about.php" title="about us" alt="about us">&nbsp;about&nbsp;</a></li>
+              <li id="contact"><span class="hidden-tablet hidden-phone">/&nbsp;</span><a style="color:#d60;" href="<?php echo $basedir;?>page/contact.php" title="contact us" alt="contact us">&nbsp;contact&nbsp;</a></li>
+              <li id="contact"><span class="hidden-tablet hidden-phone">/&nbsp;</span><a style="color:#d60;" href="http://guidofua.com/blog" title="Guido FU&agrave; Photography blog" alt="Guido FU&agrave; Photography blog">&nbsp;blog&nbsp;</a></li>
+              <li><span class="hidden-tablet hidden-phone">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                <a class="social" href="https://www.facebook.com/guido.fua" target="_blank"><i class="icon-facebook-sign"></i></a>
+                <a class="social" href="https://twitter.com/guidofua" target="_blank"><i class="icon-twitter-sign"></i></a>
+                <a class="social" href="http://pinterest.com/guidofua/" target="_blank"><i class="icon-pinterest-sign"></i></a>
+                <a class="social" href="http://www.linkedin.com/in/eikona" target="_blank"><i class="icon-linkedin-sign"></i></a>
+                <a class="social" href="https://plus.google.com/u/0/110372748342070641271" target="_blank"><i class="icon-google-plus-sign"></i></a>
               </li>
             </ul>
           </div><!--/.nav-collapse -->
