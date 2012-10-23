@@ -5,13 +5,13 @@
 				<div class="navbar-inner">
 					<ul class="nav hidden-phone">
             <li><a href="<?php echo $basedir;?>">home</a></li>
-            <li class="hidden-tablet">/&nbsp;<a href="<?php echo $basedir;?>page/about.php">portrait</a></li>
-            <li class="hidden-tablet">/&nbsp;<a href="<?php echo $basedir;?>page/about.php">reportage</a></li>
-            <li class="hidden-tablet">/&nbsp;<a href="<?php echo $basedir;?>page/about.php">corporate</a></li>
-            <li class="hidden-tablet">/&nbsp;<a href="<?php echo $basedir;?>page/about.php">food</a></li>
-            <li class="hidden-tablet">/&nbsp;<a href="<?php echo $basedir;?>page/about.php">publication</a></li>
-            <li class="hidden-tablet">/&nbsp;<a href="<?php echo $basedir;?>page/about.php">projects</a></li>
-            <li class="hidden-tablet">/&nbsp;<a href="<?php echo $basedir;?>page/about.php">video</a></li>
+            <li class="hidden-tablet">/&nbsp;<a href="<?php echo $basedir;?>page/portrait.php">portrait</a></li>
+            <li class="hidden-tablet">/&nbsp;<a href="<?php echo $basedir;?>page/reportage.php">reportage</a></li>
+            <li class="hidden-tablet">/&nbsp;<a href="<?php echo $basedir;?>page/corporate.php">corporate</a></li>
+            <li class="hidden-tablet">/&nbsp;<a href="<?php echo $basedir;?>page/food.php">food</a></li>
+            <li class="hidden-tablet">/&nbsp;<a href="<?php echo $basedir;?>page/publication.php">publication</a></li>
+            <li class="hidden-tablet">/&nbsp;<a href="<?php echo $basedir;?>page/projects.php">projects</a></li>
+            <li class="hidden-tablet">/&nbsp;<a href="<?php echo $basedir;?>page/video.php">video</a></li>
             <li>/&nbsp;<a style="color:#d60;" href="<?php echo $basedir;?>page/about.php">about</a></li>
             <li>/&nbsp;<a style="color:#d60;" href="<?php echo $basedir;?>page/contact.php">contact</a></li>
             <li>/&nbsp;<a style="color:#d60;" href="http://www.guidofua.com/blog" target="_blank">blog</a></li>

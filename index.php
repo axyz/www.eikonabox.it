@@ -51,7 +51,7 @@
 	<div class="row">
 		<div class="span12 shadow">
 			<a href="<?php echo $basedir;?>page/portrait.php" title="italian portrait photographer">
-				<div class="home-section large" style="background:url(photo/portrait/056.jpg) no-repeat 0px 47%;background-size:100%;" >
+				<div class="home-section large" style="background:url(img/home/portrait.jpg) no-repeat 0px 75%;background-size:100%;" >
 					<div class="home-section-title">portrait</div>
 				</div>
 			</a>
@@ -61,7 +61,7 @@
 	<div class="row">
 		<div class="span4 shadow">
 			<a href="<?php echo $basedir;?>page/reportage.php" title="italian reportage photographer">
-				<div class="home-section" style="background:url(img/home/reportage.jpg) no-repeat 0px 15%;background-size:100%;" >
+				<div class="home-section" style="background:url(img/home/reportage.jpg) no-repeat 0px 50%;background-size:100%;" >
 					<div class="home-section-title">reportage</div>
 				</div>
 			</a>
