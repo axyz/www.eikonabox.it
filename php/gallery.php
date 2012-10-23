@@ -1,5 +1,5 @@
 <?php
-function makeGallery($path, $directory){
+function makeGallery($path, $directory, $seo){
 	$dir = $path . "/" . $directory;
 	$handle = opendir($dir);
 	while ($file = readdir($handle)){
@@ -57,7 +57,7 @@ function makeGallery($path, $directory){
     		$parts = Explode('-', $title);
     		$title = $parts[1];
     		if ($title == "") $title = $value;
-				print "<li class='box'><a title='$title' rel='group' class='thumbnails' href='$dir/$value'><img width='$width' height='inherrit' src='$dir/thumbs/$value' /></a></li>";
+				print "<li class='box'><a title='$title' rel='group' class='thumbnails' href='$dir/$value'><img width='$width' height='inherrit' src='$dir/thumbs/$seo-$value' /></a></li>";
 				next($output);
 			}else{
 				print "</ul>";

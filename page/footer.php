@@ -25,7 +25,7 @@
 					</ul>
 			</div></div>
 			<div id="copyright">
- 						Copyright © 2012 Eikona s.r.l.
+ 						Copyright © 2012 Eikona S.r.l.
 			</div>
 		</div>
 	</div>
