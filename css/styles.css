@@ -47,11 +47,15 @@ div {
   float: none;
   text-align: center;
 }
+.nav-collapse.in .nav .social {
+  position: relative;
+  top: 5px;
+}
 .nav-collapse.in .nav li {
   border: thin solid #ccc;
-  margin-bottom: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-bottom: 5px;
+  margin-left: 20%;
+  margin-right: 20%;
   font-size: 16px;
   line-height: 32px;
   box-shadow: 0 1px 3px rgba(34, 25, 25, 0.7);
@@ -96,6 +100,13 @@ body {
 }
 .navbar-inner .nav li a {
   color: #111;
+}
+.navbar-inner .nav .social {
+  font-size: 1.5em;
+}
+.navbar-inner .nav .social:hover {
+  background-color: inherit;
+  color: inherit;
 }
 .navbar-inner .nav li {
   padding-right: 5px;
@@ -188,13 +199,21 @@ body {
   float: right;
   font-size: 18px;
 }
+#footer #social a {
+  font-size: 1.5em;
+  color: #111;
+  background-color: inherit;
+}
+#footer #social a:hover {
+  color: #333;
+}
 #footer #social .active a {
   color: #111;
-  background-color: transparent;
+  background-color: inherit;
 }
 #footer #social .active a:hover {
-  color: #fff;
-  background-color: #111;
+  color: inherit;
+  background-color: inherit;
 }
 #footer #copyright {
   text-align: center;
@@ -349,11 +368,6 @@ html[xmlns] .slides {
 /* ! Layout for mobile version   */
 /* ============================= */
 @media (min-width: 1440px) {
-  #homewall li {
-    float: left;
-    width: 16.6666%;
-    margin-bottom: 0px;
-  }
   .box {
     width: 19%;
   }
@@ -368,26 +382,25 @@ html[xmlns] .slides {
     padding-left: 0px !important;
   }
 }
-@media (min-width: 979px) and (max-width: 1200px) {
+@media (min-width: 980px) and (max-width: 1200px) {
   .navbar-inner .brand .brand {
     margin-top: 12px;
     margin-bottom: 2px;
     margin-left: 0px;
   }
-  #homewall li {
-    float: left;
-    width: 16.6666%;
-    margin-bottom: 0px;
-  }
   .box {
     width: 24%;
   }
   .brand-fix {
-    margin-left: -10px !important;
+    margin-left: 10px !important;
     padding-left: 0px !important;
   }
   .inner-page .page-header {
     margin-left: -10px !important;
+  }
+  #photoswipe,
+  #videogallery {
+    margin-top: 0px;
   }
 }
 @media (min-width: 768px) and (max-width: 979px) {
@@ -399,11 +412,6 @@ html[xmlns] .slides {
   #photoswipe,
   #videogallery {
     margin-top: 0px;
-  }
-  #homewall li {
-    float: left;
-    width: 16.6666%;
-    margin-bottom: 0px;
   }
   .box {
     width: 32%;
@@ -421,11 +429,6 @@ html[xmlns] .slides {
     margin-bottom: 2px;
     margin-left: 0px;
   }
-  #homewall li {
-    float: left;
-    width: 16.6666%;
-    margin-bottom: 0px;
-  }
   .box {
     width: 46%;
   }
@@ -436,7 +439,7 @@ html[xmlns] .slides {
   }
   #footer #social {
     float: left;
-    font-size: 36px;
+    font-size: 1.5em;
   }
   .brand-fix {
     margin-left: auto !important;
@@ -450,11 +453,6 @@ html[xmlns] .slides {
     margin-top: 12px;
     margin-bottom: 2px;
     margin-left: 0px;
-  }
-  #homewall li {
-    float: left;
-    width: 100%;
-    margin-bottom: 0px;
   }
   .box {
     width: 100%;

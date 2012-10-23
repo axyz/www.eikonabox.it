@@ -54,16 +54,23 @@
           <div class="nav-collapse">
             <ul class="nav" style="margin-top:22px;">
               <li id="about"><a href="<?php echo $basedir;?>page/portrait.php" title="italian portrait photographer">&nbsp;portrait&nbsp;</a></li>
-              <li id="about">/&nbsp;<a href="<?php echo $basedir;?>page/reportage.php" title="italian reportage photographer">&nbsp;reportage&nbsp;</a></li>
-              <li id="about">/&nbsp;<a href="<?php echo $basedir;?>page/corporate.php" title="italian corporate photographer">&nbsp;corporate&nbsp;</a></li>
-              <li id="about">/&nbsp;<a href="<?php echo $basedir;?>page/food.php" title="italian food photographer">&nbsp;food&nbsp;</a></li>
-              <li id="about">/&nbsp;<a href="<?php echo $basedir;?>page/publication.php" title="italian publication photographer">&nbsp;publication&nbsp;</a></li>
-              <li id="about">/&nbsp;<a href="<?php echo $basedir;?>page/projects.php" title="italian photographer">&nbsp;projects&nbsp;</a></li>
-              <li id="about">/&nbsp;<a href="<?php echo $basedir;?>page/video.php" title="italian video production">&nbsp;video&nbsp;</a></li>
+              <li id="about"><span class="hidden-tablet hidden-phone">/&nbsp;</span><a href="<?php echo $basedir;?>page/reportage.php" title="italian reportage photographer">&nbsp;reportage&nbsp;</a></li>
+              <li id="about"><span class="hidden-tablet hidden-phone">/&nbsp;</span><a href="<?php echo $basedir;?>page/corporate.php" title="italian corporate photographer">&nbsp;corporate&nbsp;</a></li>
+              <li id="about"><span class="hidden-tablet hidden-phone">/&nbsp;</span><a href="<?php echo $basedir;?>page/food.php" title="italian food photographer">&nbsp;food&nbsp;</a></li>
+              <li id="about"><span class="hidden-tablet hidden-phone">/&nbsp;</span><a href="<?php echo $basedir;?>page/publication.php" title="italian publication photographer">&nbsp;publication&nbsp;</a></li>
+              <li id="about"><span class="hidden-tablet hidden-phone">/&nbsp;</span><a href="<?php echo $basedir;?>page/projects.php" title="italian photographer">&nbsp;projects&nbsp;</a></li>
+              <li id="about"><span class="hidden-tablet hidden-phone">/&nbsp;</span><a href="<?php echo $basedir;?>page/video.php" title="italian video production">&nbsp;video&nbsp;</a></li>
         
-              <li id="about">/&nbsp;<a href="<?php echo $basedir;?>page/about.php" title="about us" alt="about us">&nbsp;about&nbsp;</a></li>
-              <li id="contact">/&nbsp;<a href="<?php echo $basedir;?>page/contact.php" title="contact us" alt="contact us">&nbsp;contact&nbsp;</a></li>
-              <li id="contact">/&nbsp;<a href="http://guidofua.com/blog" title="Guido FU&agrave; Photography blog" alt="Guido FU&agrave; Photography blog">&nbsp;blog&nbsp;</a></li>
+              <li id="about"><span class="hidden-tablet hidden-phone">/&nbsp;</span><a href="<?php echo $basedir;?>page/about.php" title="about us" alt="about us">&nbsp;about&nbsp;</a></li>
+              <li id="contact"><span class="hidden-tablet hidden-phone">/&nbsp;</span><a href="<?php echo $basedir;?>page/contact.php" title="contact us" alt="contact us">&nbsp;contact&nbsp;</a></li>
+              <li id="contact"><span class="hidden-tablet hidden-phone">/&nbsp;</span><a href="http://guidofua.com/blog" title="Guido FU&agrave; Photography blog" alt="Guido FU&agrave; Photography blog">&nbsp;blog&nbsp;</a></li>
+              <li><span class="hidden-tablet hidden-phone">&nbsp;&nbsp;</span>
+                <a class="social" href="https://www.facebook.com/guido.fua" target="_blank"><i class="icon-facebook"></i></a>
+                <a class="social" href="https://twitter.com/guidofua" target="_blank"><i class="icon-twitter"></i></a>
+                <a class="social" href="http://pinterest.com/guidofua/" target="_blank"><i class="icon-pinterest"></i></a>
+                <a class="social" href="http://www.linkedin.com/in/eikona" target="_blank"><i class="icon-linkedin"></i></a>
+                <a class="social" href="https://plus.google.com/u/0/110372748342070641271" target="_blank"><i class="icon-google-plus"></i></a>
+              </li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
