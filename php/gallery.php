@@ -1,5 +1,6 @@
 <?php
 function makeGallery($path, $directory, $seo){
+	
 	$dir = $path . "/" . $directory;
 
 	$filearray = array(); 

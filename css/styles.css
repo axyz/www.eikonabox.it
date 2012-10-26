@@ -312,6 +312,12 @@ body {
 .brand-fix {
   margin-left: -20px !important;
 }
+#infscr-loading {
+  position: fixed;
+  left: 30%;
+  z-index: 30000;
+  bottom: 20px;
+}
 /* FlexSlider Necessary Styles
 *********************************/.flex-container a:active,
 .flexslider a:active,
