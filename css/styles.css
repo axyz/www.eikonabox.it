@@ -248,7 +248,8 @@ body {
 .inner-page .inner-section-thumb:hover {
   -webkit-box-shadow: 10px 10px 30px rgba(34, 25, 25, 0.7);
 }
-.inner-page .inner-section-thumb:hover .inner-section-title {
+.inner-page .inner-section-thumb:hover .inner-section-title,
+.inner-page .inner-section-thumb:hover .inner-section-title-reportage {
   color: #fff;
   background-color: rgba(1, 1, 1, 0.7);
 }
@@ -261,6 +262,27 @@ body {
   text-align: center;
   height: 16%;
   padding-top: 2%;
+}
+.inner-page .inner-section-title-reportage {
+  position: relative;
+  background-color: rgba(245, 245, 245, 0.6);
+  bottom: -79%;
+  font-family: 'Carrois Gothic SC', sans-serif;
+  font-size: 28px;
+  text-align: center;
+  height: 16%;
+  padding-top: 2%;
+  height: 22%;
+  bottom: -76%;
+  padding-top: 0;
+}
+.inner-page .inner-section-title-reportage h2 {
+  position: relative;
+  top: -20px;
+  font-family: 'PT Sans';
+  font-weight: 400;
+  font-size: 0.8em;
+  padding-top: 10px;
 }
 .inner-page .inner-section-caption {
   overflow: auto;

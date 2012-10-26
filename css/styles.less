@@ -286,7 +286,7 @@ div {
 			}
 
 			&:hover {
-				.inner-section-title {
+				.inner-section-title, .inner-section-title-reportage {
 					color: #fff;
 					background-color: rgba(1,1,1,.7);
 				}
@@ -303,6 +303,23 @@ div {
   		text-align: center;
   		height:16%;
   		padding-top: 2%;
+		}
+
+		.inner-section-title-reportage {
+			.inner-section-title;
+
+			height: 22%;
+			bottom: -76%;
+			padding-top: 0;
+
+			h2 {
+				position: relative;
+				top: -20px;
+				font-family: 'PT Sans';
+				font-weight: 400;
+				font-size: 0.8em;
+				padding-top: 10px;
+			}
 		}
 
 		.inner-section-caption {
