@@ -53,7 +53,7 @@ It is a way to become a better, more passionate and honest person.”</p>
 <img src="<?php echo $basedir;?>img/bio/photography-teacher-school-rome.png" style="margin-bottom:10px;" />
 
 <p> <b>Eikona</b> is a team established since 1996 in <b>Rome</b> that produces images in editorial, corporate and advertising fields, by providing the following 
-    services: <b>digital photography and HD video-making, multimedia and 3D composing;  web designing, web engineering, social network identity; 
+    services: <b>digital photography and HD video-making, multimedia, motion desgin and 3D compositing;  web designing, web engineering, social network identity; 
     photo-voice projects; workshop and photography tutorials; consulting and professional assistance about digital archiving of pictures and photoretouch</b>. 
     Eikona runs a client-friendly, service-oriented business, as Guido Fu&agrave; believes that great creativity often is the result of team effort and values, 
     working closely with his clients.</p>
@@ -65,7 +65,7 @@ It is a way to become a better, more passionate and honest person.”</p>
                         <div class="tab-pane longtext" id="ita">
     						<p><img src="<?php echo $basedir;?>img/bio/guido_banner.jpg" style="margin-bottom:10px;" />
 
-<b>Guido Fu&agrave;</b>, fondatore e direttore dell’<b>eikona studio</b>, &egrave; un fotografo iscritto all’ordine dei giornalisti italiani dal 1991, parla due 
+<b>Guido Fu&agrave;</b>, direttore dell’<b>eikona studio</b>, &egrave; un fotografo con base a Roma, parla due 
 lingue (<b>inglese</b> e <b>spagnolo</b>) ed &egrave; laureato  in <b>antropologia visuale</b> presso l'Universit&agrave; di Roma (La Sapienza). Unendo l'occhio curioso del foto-reporter 
 con una costante ricerca di tecniche fotografiche innovative, ha realizzato nel corso degli ultimi venti anni un’intensa attivit&agrave; ritrattistica, 
 fotografando molti nomi noti dello show-biz, della cultura, della finanza, così come di gente comune appartenente a ogni contesto culturale ed etnico.</p>
@@ -107,7 +107,7 @@ Insegnare quello che mi piace così tanto, mi fa condividere la stessa passione 
 
 <p><b>Eikona</b>, &egrave; una societ&agrave; costituita nel 1996 e qualificata nel settore della realizzazione d’immagini fotografiche editoriali, corporate e advertising, 
     con operatori che forniscono varie tipologie di servizi. Le competenze del suo staff includono servizi di <b>web designing, web engineering, 
-    social network identity, produzione e montaggio video HD, realizzazione di filmati multimediali e composing 3D, postproduzione digitale,  
+    social network identity, produzione e montaggio video HD, realizzazione di filmati multimediali, motion design e compositing 3D, postproduzione digitale,  
     corporate identity,  consulenza ed assistenza professionale, workshop e corsi di fotografia,  servizi di distribuzione e archiviazione digitale 
     d’immagini.</b> </p>
 
