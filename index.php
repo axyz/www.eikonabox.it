@@ -75,7 +75,7 @@
 		</div>
 		<div class="span4 shadow">
 			<a href="<?php echo $basedir;?>page/food.php" title="italian food photographer">
-				<div class="home-section" style="background:url(photo/interiors/21.jpg) no-repeat 0px 70%;background-size:100%;" >
+				<div class="home-section" style="background:url(img/home/fotografo-cibo-roma.jpg) no-repeat 0px 40%;background-size:100%;" >
 					<div class="home-section-title">food</div>
 				</div>
 			</a>

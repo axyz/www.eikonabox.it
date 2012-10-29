@@ -63,7 +63,7 @@ It is a way to become a better, more passionate and honest person.”</p>
     					
 
                         <div class="tab-pane longtext" id="ita">
-    						<p><img src="<?php echo $basedir;?>img/bio/guido_banner.jpg" style="margin-bottom:10px;" />
+    						<p><img src="<?php echo $basedir;?>img/bio/italian-photographer.jpg" style="margin-bottom:10px;" />
 
 <b>Guido Fu&agrave;</b>, direttore dell’<b>eikona studio</b>, &egrave; un fotografo con base a Roma, parla due 
 lingue (<b>inglese</b> e <b>spagnolo</b>) ed &egrave; laureato  in <b>antropologia visuale</b> presso l'Universit&agrave; di Roma (La Sapienza). Unendo l'occhio curioso del foto-reporter 

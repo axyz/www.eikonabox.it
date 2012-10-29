@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+
+         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+
+         xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+   <url>
+
+      <loc>http://www.eikona.eu/</loc>
+
+      <lastmod>2012-10-23</lastmod>
+
+      <changefreq>monthly</changefreq>
+
+      <priority>1</priority>
+
+   </url>
+
+   <url>
+
+      <loc>http://www.eikona.eu/page/about.php</loc>
+
+      <lastmod>2012-10-23</lastmod>
+
+      <changefreq>monthly</changefreq>
+
+      <priority>1</priority>
+
+   </url>
+
+   <url>
+
+      <loc>http://www.eikona.eu/page/contact.php</loc>
+
+      <lastmod>2012-10-23</lastmod>
+
+      <changefreq>monthly</changefreq>
+      
+      <priority>1</priority>
+
+   </url>
+
+   <url>
+
+      <loc>http://www.eikona.eu/page/portrait.php</loc>
+
+      <lastmod>2012-10-23</lastmod>
+
+      <changefreq>monthly</changefreq>
+      
+      <priority>1</priority>
+
+   </url>
+
+   <url>
+
+      <loc>http://www.eikona.eu/page/reportage.php</loc>
+
+      <lastmod>2012-10-23</lastmod>
+
+      <changefreq>monthly</changefreq>
+      
+      <priority>1</priority>
+
+   </url>
+
+   <url>
+
+      <loc>http://www.eikona.eu/page/corporate.php</loc>
+
+      <lastmod>2012-10-23</lastmod>
+
+      <changefreq>monthly</changefreq>
+      
+      <priority>1</priority>
+
+   </url>
+
+   <url>
+
+      <loc>http://www.eikona.eu/page/food.php</loc>
+
+      <lastmod>2012-10-23</lastmod>
+
+      <changefreq>monthly</changefreq>
+      
+      <priority>1</priority>
+
+   </url>
+
+   <url>
+
+      <loc>http://www.eikona.eu/page/publication.php</loc>
+
+      <lastmod>2012-10-23</lastmod>
+
+      <changefreq>monthly</changefreq>
+      
+      <priority>1</priority>
+
+   </url>
+
+   <url>
+
+      <loc>http://www.eikona.eu/page/projects.php</loc>
+
+      <lastmod>2012-10-23</lastmod>
+
+      <changefreq>monthly</changefreq>
+      
+      <priority>1</priority>
+
+   </url>
+
+   <url>
+
+      <loc>http://www.eikona.eu/page/video.php</loc>
+
+      <lastmod>2012-10-23</lastmod>
+
+      <changefreq>monthly</changefreq>
+      
+      <priority>1</priority>
+
+   </url>
+
+
+</urlset>
