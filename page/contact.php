@@ -150,7 +150,7 @@ if(!isset($hasError)) {
 <script type="text/javascript" >
 $(document).ready(function(){
 
-	$.getJSON('php/image_preloading.php', function(data) {
+	$.getJSON('../php/image_preloading.php', function(data) {
     Core.preloader.queue(data).preload();
   });
 

@@ -87,7 +87,7 @@
 <script type="text/javascript">
 $(function(){
 
-	$.getJSON('php/image_preloading.php', function(data) {
+	$.getJSON('../php/image_preloading.php', function(data) {
     Core.preloader.queue(data).preload();
   });
 

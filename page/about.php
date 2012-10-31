@@ -124,7 +124,7 @@ Insegnare quello che mi piace così tanto, mi fa condividere la stessa passione 
 <script type="text/javascript">
 $(function(){
 
-    $.getJSON('php/image_preloading.php', function(data) {
+    $.getJSON('../php/image_preloading.php', function(data) {
         Core.preloader.queue(data).preload();
     });
 

@@ -5,7 +5,7 @@ header("Content-type: text/javascript");
 
 /* our multidimentional php array to pass back to javascript via ajax */
 $arr = array();
-$base = "eikonanew/";
+$base = "http://www.eikona.eu/";
 $dirs = array("photo/portrait/thumbs",
               "img/reportage",
               "img/projects",
