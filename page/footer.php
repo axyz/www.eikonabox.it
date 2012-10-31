@@ -7,7 +7,7 @@
             <li><a href="<?php echo $basedir;?>">home</a></li>
             <li class="hidden-tablet">/&nbsp;<a href="<?php echo $basedir;?>page/portrait.php">portrait</a></li>
             <li class="hidden-tablet">/&nbsp;<a href="<?php echo $basedir;?>page/reportage.php">reportage</a></li>
-            <li class="hidden-tablet">/&nbsp;<a href="<?php echo $basedir;?>page/corporate.php">corporate</a></li>
+            <li class="hidden-tablet">/&nbsp;<a href="<?php echo $basedir;?>page/corporate.php">advertising</a></li>
             <li class="hidden-tablet">/&nbsp;<a href="<?php echo $basedir;?>page/food.php">food</a></li>
             <li class="hidden-tablet">/&nbsp;<a href="<?php echo $basedir;?>page/publication.php">publication</a></li>
             <li class="hidden-tablet">/&nbsp;<a href="<?php echo $basedir;?>page/projects.php">projects</a></li>

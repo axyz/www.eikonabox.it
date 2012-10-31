@@ -55,7 +55,7 @@
             <ul class="nav" style="margin-top:30px;">
               <li id="about"><a href="<?php echo $basedir;?>page/portrait.php" title="italian portrait photographer">&nbsp;portrait&nbsp;</a></li>
               <li id="about"><span class="hidden-tablet hidden-phone">/&nbsp;</span><a href="<?php echo $basedir;?>page/reportage.php" title="italian reportage photographer">&nbsp;reportage&nbsp;</a></li>
-              <li id="about"><span class="hidden-tablet hidden-phone">/&nbsp;</span><a href="<?php echo $basedir;?>page/corporate.php" title="italian corporate photographer">&nbsp;corporate&nbsp;</a></li>
+              <li id="about"><span class="hidden-tablet hidden-phone">/&nbsp;</span><a href="<?php echo $basedir;?>page/corporate.php" title="italian corporate photographer">&nbsp;advertising&nbsp;</a></li>
               <li id="about"><span class="hidden-tablet hidden-phone">/&nbsp;</span><a href="<?php echo $basedir;?>page/food.php" title="italian food photographer">&nbsp;food&nbsp;</a></li>
               <li id="about"><span class="hidden-tablet hidden-phone">/&nbsp;</span><a href="<?php echo $basedir;?>page/publication.php" title="italian publication photographer">&nbsp;publication&nbsp;</a></li>
               <li id="about"><span class="hidden-tablet hidden-phone">/&nbsp;</span><a href="<?php echo $basedir;?>page/projects.php" title="italian photographer">&nbsp;projects&nbsp;</a></li>
