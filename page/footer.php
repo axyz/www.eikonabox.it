@@ -32,6 +32,7 @@
 </div></footer>
 
 <script src="<?php echo $basedir;?>js/jquery-1.7.1.min.js"></script>
+<script src="<?php echo $basedir;?>js/core.js"></script>
 <script src="<?php echo $basedir;?>js/bootstrap.js"></script>
 <script src="<?php echo $basedir;?>js/klass.min.js"></script>
 <script src="<?php echo $basedir;?>js/jquery.masonry.min.js"></script>

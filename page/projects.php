@@ -243,8 +243,13 @@ fotografia ufficiale ora, per una volta, totalmente invisibile”.
 <?php include("footer.php"); ?>
 <script type="text/javascript">
 $(function(){
-    $('#header-container').removeClass('container-fluid').addClass('container');
-    $('#footer-container').removeClass('container-fluid').addClass('container');
-    $('.navbar-inner .brand').addClass('brand-fix');
+
+	$.getJSON('php/image_preloading.php', function(data) {
+    Core.preloader.queue(data).preload();
+  });
+
+  $('#header-container').removeClass('container-fluid').addClass('container');
+  $('#footer-container').removeClass('container-fluid').addClass('container');
+  $('.navbar-inner .brand').addClass('brand-fix');
 });
 </script>

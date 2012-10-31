@@ -25,7 +25,7 @@ function obclose(){
   }
 
 $(function(){
-  
+
   $('.home [title]').removeAttr('title');
   $('.navbar [title]').removeAttr('title');
 

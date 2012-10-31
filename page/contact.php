@@ -150,6 +150,10 @@ if(!isset($hasError)) {
 <script type="text/javascript" >
 $(document).ready(function(){
 
+	$.getJSON('php/image_preloading.php', function(data) {
+    Core.preloader.queue(data).preload();
+  });
+
 	$('#header-container').removeClass('container-fluid').addClass('container');
 	$('#footer-container').removeClass('container-fluid').addClass('container');
 	$('.navbar-inner .brand').addClass('brand-fix');
