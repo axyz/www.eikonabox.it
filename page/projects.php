@@ -9,7 +9,7 @@
 
 
 
-    <?php innerSection("$basedir/page/creoli.php","background:url($basedir/img/projects/creoli.jpg) no-repeat 0px 28%;background-size:100%;","creoli", "","
+    <?php innerSection("$basedir/page/creoli.php","background:url($basedir/img/projects/creoli.jpg) no-repeat 0px 50%;background-size:100%;","creoli", "","
 			
 		<p>
 <b>Volti nuovi</b>, dalla fisionomia indefinibile e affascinante, si muovono per le nostre
@@ -139,7 +139,7 @@ fotografia ufficiale ora, per una volta, totalmente invisibile”.
 
 
 
-		<?php innerSection("$basedir/page/darkladies.php","background:url($basedir/img/projects/cage.jpg) no-repeat 0px 14%;background-size:100%;","Dark Ladies","","
+		<?php innerSection("$basedir/page/darkladies.php","background:url($basedir/img/projects/darkladies.jpg) no-repeat 0px 14%;background-size:100%;","Dark Ladies","","
 			
 		<p>
 <b>Alcune scene</b> e personaggi femminili del film “Sin City”, lavoro cinematografico fumettistico in
