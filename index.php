@@ -69,7 +69,7 @@
 		<div class="span4 shadow">
 			<a href="<?php echo $basedir;?>page/corporate.php" title="italian corporate photographer">
 				<div class="home-section" style="background:url(img/home/fotografo-corporate-roma.jpg) no-repeat 0px 70%;background-size:100%;" >
-					<div class="home-section-title">corporate</div>
+					<div class="home-section-title">advertising</div>
 				</div>
 			</a>
 		</div>
