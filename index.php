@@ -99,7 +99,7 @@
 		</div>
 		<div class="span4 shadow">
 			<a href="<?php echo $basedir;?>page/video.php" title="italian video production">
-				<div class="home-section" style="background:url(photo/portrait/034.jpg) no-repeat 0px 7%;background-size:100%;" >
+				<div class="home-section" style="background:url(img/home/videomaker-produzioni-video-roma.jpg) no-repeat 0px 38%;background-size:100%;" >
 					<div class="home-section-title">video</div>
 				</div>
 			</a>
