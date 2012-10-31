@@ -9,6 +9,47 @@
 
 
 
+    <?php innerSection("$basedir/page/collateral.php","background:url($basedir/img/projects/collateral.jpg) no-repeat 0px 80%;background-size:100%;","collateral","","
+			
+		<p>
+<b>L’idea</b> di una raccolta d’immagini da riunire sotto il titolo di “Sguardi collaterali”, è scaturita
+da una reiterata e sperimentata separazione tra fotografia intesa come professione e allo
+stesso tempo vissuta come strumento di libera espressione creativa. Una folta agenda di lavori
+fotografici commissionati procura sicurezza economica, ma a volte comporta anche obblighi
+e limitazioni, secondo canoni estetici vincolanti e necessità descrittive diverse dalle proprie
+inclinazioni. Lo sguardo collaterale, è uno scarto dell’occhio rivolto per caso o per destino di lato
+rispetto al soggetto focalizzato, quel movimento del collo verso un particolare incongruo e non
+pertinente, che risiede fuori del nostro campo della visione. Le quattordici immagini surreali,
+ironiche, drammatiche, mediate oppure colte nella loro immediatezza, costituiscono una raccolta
+di schegge diverse. Il loro unico legame è nascere da un impulso ribelle della visione, che
+distoglie lo sguardo dalla scena della routine professionale, e per puro impulso creativo indirizza
+la sua attenzione in modo collaterale verso un soggetto inaspettato e del tutto, o quasi, slegato
+dalle circostanze professionali. Una rivendicazione di libertà espressiva, che cerca profondità e
+spessore in un mondo in cui a volte i meccanismi della visione sembrano essere frettolosamente
+orientati e focalizzati entro limiti angusti e superficiali.</p>
+<p><b>Come ha commentato Augusto Pieroni</b>, critico e antropologo:
+“La fotografia commerciale e ritrattistica, spesso si svolgono in locations e con modalità
+temporaneamente sottratte al normale flusso della vita. A volte quest’ultima trapela nei momenti
+più imprevisti dietro ai riflettori, intorno ai cavalletti e agli assistenti. Perfino i reportage presentano
+dei controcampi rivelatori che rifocalizzano improvvisamente il pensiero fotografico.
+Guido Fuà non ha fatto che collezionare una serie ricca ed eterogenea di simili “sguardi collaterali”,
+come li ha definiti lui stesso. Questa raccolta costante d’istanti ha come unico tratto comune quello
+di affermarsi come una verità imprevista, che si sostituisce a quella prevedibile e retorica che il
+fotografo era stato chiamato a costruire. Momenti in cui lo sguardo fa vacanza, si distrae e si ricrea,
+si deconcentra e si diverte, si astrae e sprofonda in un pensiero. Guido Fuà ci offre un itinerario
+serrato e rigoroso nella sua costruzione in forma di racconto collaterale, grazie al quale lo spettatore
+fissa nella propria mente l’immagine, che può osservare e ponderare nello scenario virtuale di una
+fotografia ufficiale ora, per una volta, totalmente invisibile”.
+</p>
+
+		", "project"); ?>
+
+
+		
+		<hr>
+
+
+
     <?php innerSection("$basedir/page/creoli.php","background:url($basedir/img/projects/creoli.jpg) no-repeat 0px 50%;background-size:100%;","creoli", "","
 			
 		<p>
@@ -88,47 +129,6 @@ caratteri degli altri e delle altre culture senza paura di perdere la propria id
 del mondo ed esemplificano il modo di sopravvivere nella diversità, lontano
 dall’unico e dall’identico, perché oppongono all’universalità e alla purezza
 scismatica, tutte le opportunità dell’armonizzazione cosciente delle diversità.
-</p>
-
-		", "project"); ?>
-
-
-
-		<hr>
-
-
-
-		<?php innerSection("$basedir/page/collateral.php","background:url($basedir/img/projects/collateral.jpg) no-repeat 0px 80%;background-size:100%;","collateral","","
-			
-		<p>
-<b>L’idea</b> di una raccolta d’immagini da riunire sotto il titolo di “Sguardi collaterali”, è scaturita
-da una reiterata e sperimentata separazione tra fotografia intesa come professione e allo
-stesso tempo vissuta come strumento di libera espressione creativa. Una folta agenda di lavori
-fotografici commissionati procura sicurezza economica, ma a volte comporta anche obblighi
-e limitazioni, secondo canoni estetici vincolanti e necessità descrittive diverse dalle proprie
-inclinazioni. Lo sguardo collaterale, è uno scarto dell’occhio rivolto per caso o per destino di lato
-rispetto al soggetto focalizzato, quel movimento del collo verso un particolare incongruo e non
-pertinente, che risiede fuori del nostro campo della visione. Le quattordici immagini surreali,
-ironiche, drammatiche, mediate oppure colte nella loro immediatezza, costituiscono una raccolta
-di schegge diverse. Il loro unico legame è nascere da un impulso ribelle della visione, che
-distoglie lo sguardo dalla scena della routine professionale, e per puro impulso creativo indirizza
-la sua attenzione in modo collaterale verso un soggetto inaspettato e del tutto, o quasi, slegato
-dalle circostanze professionali. Una rivendicazione di libertà espressiva, che cerca profondità e
-spessore in un mondo in cui a volte i meccanismi della visione sembrano essere frettolosamente
-orientati e focalizzati entro limiti angusti e superficiali.</p>
-<p><b>Come ha commentato Augusto Pieroni</b>, critico e antropologo:
-“La fotografia commerciale e ritrattistica, spesso si svolgono in locations e con modalità
-temporaneamente sottratte al normale flusso della vita. A volte quest’ultima trapela nei momenti
-più imprevisti dietro ai riflettori, intorno ai cavalletti e agli assistenti. Perfino i reportage presentano
-dei controcampi rivelatori che rifocalizzano improvvisamente il pensiero fotografico.
-Guido Fuà non ha fatto che collezionare una serie ricca ed eterogenea di simili “sguardi collaterali”,
-come li ha definiti lui stesso. Questa raccolta costante d’istanti ha come unico tratto comune quello
-di affermarsi come una verità imprevista, che si sostituisce a quella prevedibile e retorica che il
-fotografo era stato chiamato a costruire. Momenti in cui lo sguardo fa vacanza, si distrae e si ricrea,
-si deconcentra e si diverte, si astrae e sprofonda in un pensiero. Guido Fuà ci offre un itinerario
-serrato e rigoroso nella sua costruzione in forma di racconto collaterale, grazie al quale lo spettatore
-fissa nella propria mente l’immagine, che può osservare e ponderare nello scenario virtuale di una
-fotografia ufficiale ora, per una volta, totalmente invisibile”.
 </p>
 
 		", "project"); ?>
