@@ -52,7 +52,7 @@
           </a>
           <a class="brand" href="<?php echo $basedir;?>"><img src="<?php echo $basedir;?>img/eikona_guido.png" alt="" ></a>
           <div class="nav-collapse">
-            <ul class="nav" style="margin-top:30px;">
+            <ul class="nav" style="margin-top:31px;">
               <li id="about"><a href="<?php echo $basedir;?>page/portrait.php" title="italian portrait photographer">&nbsp;portrait&nbsp;</a></li>
               <li id="about"><span class="hidden-tablet hidden-phone">/&nbsp;</span><a href="<?php echo $basedir;?>page/reportage.php" title="italian reportage photographer">&nbsp;reportage&nbsp;</a></li>
               <li id="about"><span class="hidden-tablet hidden-phone">/&nbsp;</span><a href="<?php echo $basedir;?>page/corporate.php" title="italian corporate photographer">&nbsp;advertising&nbsp;</a></li>

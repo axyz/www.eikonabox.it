@@ -70,13 +70,14 @@ div {
 body {
   background-image: url(../img/bg-body.jpg);
   background-color: transparent;
+  line-height: 40px;
 }
 .fullscreen {
   padding-left: 0px;
   padding-right: 0px;
 }
 .navbar-inner {
-  min-height: 65px;
+  min-height: 75px;
   background-image: none;
   background-color: rgba(255, 255, 255, 0.9);
   box-shadow: none;
@@ -103,6 +104,7 @@ body {
 }
 .navbar-inner .nav .social {
   font-size: 1.5em;
+  line-height: 0.5em;
 }
 .navbar-inner .nav .social:hover {
   background-color: inherit;
@@ -139,7 +141,7 @@ body {
   margin: 0;
   padding: 0;
   margin-left: 30px;
-  margin-top: 30px;
+  margin-top: 40px;
 }
 #photoswipe,
 #videogallery {
