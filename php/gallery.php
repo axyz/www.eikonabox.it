@@ -1,6 +1,6 @@
 <?php
 function makeGallery($path, $directory, $seo){
-	
+
 	$dir = $path . "/" . $directory;
 
 	$filearray = array(); 
@@ -28,7 +28,15 @@ function makeGallery($path, $directory, $seo){
     		$title = $parts[1];
     		if ($title == "") $title = $value;
     		if($value != "")
-					print "<li class='box'><a title='$title' rel='group' class='thumbnails' href='$dir/$value'><img width='$width' height='inherrit' src='$dir/thumbs/$seo-$value' /></a></li>";
+					print "<li class='box' itemscope itemtype='http://schema.org/Photograph'><a title='$title' rel='group' class='thumbnails' href='$dir/$value'>
+				<meta itemprop='name' content='$title'>
+				<meta itemprop='creator' content='Guido Fu&agrave;'>
+				<meta itemprop='URL' content='$dir/$value'>
+				<div itemprop='aggregateRating' itemscope itemtype='http://schema.org/AggregateRating'>
+					<meta itemprop='ratingValue' content='5' /> 
+    			<meta itemprop='ratingCount' content='196' />
+    		</div>
+    		<img itemprop='image' width='$width' height='inherrit' src='$dir/thumbs/$seo-$value' /></a></li>";
 	}
 	closedir($fil);
 	}

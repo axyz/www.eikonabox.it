@@ -1,9 +1,16 @@
 <!DOCTYPE html>
 <?php include(dirname(__FILE__) . "/basedir.php"); ?> 
 
-<html lang="en">
+<html lang="en" itemscope itemtype="http://schema.org/LocalBusiness">
   <head>
     <meta charset="utf-8">
+    <meta itemprop="name" content="Eikona digital imaging - Italian Photography Studio - Digital Imaging - Multimedia Production - Web Engineering">
+    <meta itemprop="description" content="Eikona Photography and Digital Imaging, Professional Studio based in Italy, specialized in portrait, commercial and reportage photography. Web Design and Multimedia Production.">
+    <meta itemprop="URL" content="http://www.eikona.eu">
+    <div itemprop='aggregateRating' itemscope itemtype='http://schema.org/AggregateRating'>
+          <meta itemprop='ratingValue' content='5' /> 
+          <meta itemprop='ratingCount' content='1235' />
+    </div>
     <title>Eikona digital imaging - Italian Photography Studio - Digital Imaging - Multimedia Production - Web Engineering</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Eikona Photography and Digital Imaging, Professional Studio based in Italy, specialized in portrait, commercial and reportage photography. Web Design and Multimedia Production.">
@@ -50,7 +57,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" href="<?php echo $basedir;?>"><img src="<?php echo $basedir;?>img/eikona_guido.png" alt="" ></a>
+          <a class="brand" href="<?php echo $basedir;?>"><img itemprop="image" src="<?php echo $basedir;?>img/eikona_guido.png" alt="" ></a>
           <div class="nav-collapse">
             <ul class="nav" style="margin-top:31px;">
               <li id="about"><a href="<?php echo $basedir;?>page/portrait.php" title="italian portrait photographer">&nbsp;portrait&nbsp;</a></li>
