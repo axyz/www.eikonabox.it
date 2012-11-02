@@ -88,7 +88,7 @@ function( newElements ) {
                 this.title += '<br /><br />';
 
                 // Add FaceBook like button
-                this.title += '<a href="http://www.facebook.com/sharer.php?u=http://eikona.eu/page/' + this.href + '" class="social-icon"><i style="font-size: 22px;" class="icon-facebook-sign icon-large"></i></a>&nbsp;&nbsp;&nbsp;';
+                this.title += '<a href="http://www.facebook.com/sharer.php?u=http://eikona.eu/php/static.php?img=http://eikona.eu/page/' + this.href + '" class="social-icon"><i style="font-size: 22px;" class="icon-facebook-sign icon-large"></i></a>&nbsp;&nbsp;&nbsp;';
                 
                 this.title += '<a href="http://pinterest.com/pin/create/button/?url=http%3A%2F%2Feikona.eu&media=http%3A%2F%2Feikona.eu%2Fpage%2F' + this.href + '" class="social-icon"><i style="font-size: 22px;" class="icon-pinterest icon-large"></i></a>&nbsp;&nbsp;&nbsp;';
 
