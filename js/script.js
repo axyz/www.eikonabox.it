@@ -88,11 +88,11 @@ function( newElements ) {
                 this.title += '<br /><br />';
 
                 // Add FaceBook like button
-                this.title += '<a href="http://www.facebook.com/sharer.php?u=http://eikonabox.com/page/' + this.href + '" class="social-icon"><i style="font-size: 22px;" class="icon-facebook-sign icon-large"></i></a>&nbsp;&nbsp;&nbsp;';
+                this.title += '<a href="http://www.facebook.com/sharer.php?u=http://eikona.eu/page/' + this.href + '" class="social-icon"><i style="font-size: 22px;" class="icon-facebook-sign icon-large"></i></a>&nbsp;&nbsp;&nbsp;';
                 
-                this.title += '<a href="http://pinterest.com/pin/create/button/?url=http%3A%2F%2Feikonabox.com&media=http%3A%2F%2Feikonabox.com%2Fpage%2F' + this.href + '" class="social-icon"><i style="font-size: 22px;" class="icon-pinterest icon-large"></i></a>&nbsp;&nbsp;&nbsp;';
+                this.title += '<a href="http://pinterest.com/pin/create/button/?url=http%3A%2F%2Feikona.eu&media=http%3A%2F%2Feikona.eu%2Fpage%2F' + this.href + '" class="social-icon"><i style="font-size: 22px;" class="icon-pinterest icon-large"></i></a>&nbsp;&nbsp;&nbsp;';
 
-                this.title += '<a href="https://plusone.google.com/_/+1/confirm?hl=en&url=http://eikonabox.com/" class="social-icon"><i style="font-size: 22px;" class="icon-google-plus-sign icon-large"></i></a>&nbsp;&nbsp;&nbsp;';
+                this.title += '<a href="https://plusone.google.com/_/+1/confirm?hl=en&url=http://eikona.eu/" class="social-icon"><i style="font-size: 22px;" class="icon-google-plus-sign icon-large"></i></a>&nbsp;&nbsp;&nbsp;';
                 // Add tweet button
                 this.title += '<a href="https://twitter.com/share" class="social-icon twitter-share-button" data-related="guidofua" data-hashtags="photography"><i style="font-size: 25px;" class="icon-twitter icon-large"></i></a>';
             }
