@@ -36,7 +36,7 @@ function makeGallery($path, $directory, $seo){
 					<meta itemprop='ratingValue' content='5' /> 
     			<meta itemprop='ratingCount' content='196' />
     		</div>
-    		<img itemprop='image' width='$width' height='inherrit' src='$dir/thumbs/$seo-$value' /></a></li>";
+                <img itemprop='image' alt='$title-$seo' width='$width' height='inherrit' src='$dir/thumbs/$seo-$value' /></a></li>";
 	}
 	closedir($fil);
 	}
