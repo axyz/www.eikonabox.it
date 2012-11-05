@@ -11,7 +11,7 @@
           <meta itemprop='ratingValue' content='5' /> 
           <meta itemprop='ratingCount' content='1235' />
     </div>
-    <title>Eikona digital imaging - Italian Photography Studio - Digital Imaging - Multimedia Production - Web Engineering</title>
+    <title>Eikona digital imaging - Italian Photography Studio - Italian Photographer - Digital Imaging - Multimedia Production - Web Engineering</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Eikona Photography and Digital Imaging, Professional Studio based in Italy, specialized in portrait, commercial and reportage photography. Web Design and Multimedia Production.">
     <meta name="author" content="axyzxp@gmail.com" >
