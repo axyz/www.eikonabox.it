@@ -4,7 +4,71 @@
 <html lang="en" itemscope itemtype="http://schema.org/LocalBusiness">
   <head>
     <meta charset="utf-8">
-    <meta itemprop="name" content="Eikona digital imaging - Italian Photography Studio - Digital Imaging - Multimedia Production - Web Engineering">
+    <meta itemprop="name" content="
+    <?php 
+        $file = basename($_SERVER['PHP_SELF']);
+        switch ($file) {
+          case "portrait.php":
+            echo "Italian Portrait Photographer";
+            break;
+          case "about.php":
+            echo "Guido Fu&agrave; - Italian Photographer";
+            break;
+          case "reportage.php":
+            echo "Italian Reportage Photographer";
+            break;
+          case "corporate.php":
+            echo "Italian Advertising Photographer";
+            break;
+          case "food.php":
+            echo "Italian Food Photographer - Food Stylist";
+            break;
+          case "publication.php":
+            echo "Italian Editorial Photographer";
+            break;
+          case "projects.php":
+            echo "Guido Fu&agrave - Photography Projects";
+            break;
+          case "video.php":
+            echo "Italian Video Production";
+            break;
+          case "about.php":
+            echo "Guido Fu&agrave; Italian Photographer - Fotografo Roma";
+            break;
+          case "contact.php":
+            echo "Eikona - Studio Fotografico Roma";
+            break;
+          case "mozambico.php":
+            echo "Mozambico Photography Reportage by Guido Fu&agrave;";
+            break;
+          case "booghienights.php":
+            echo "Nightlife Photography Reportage by Guido Fu&agrave;";
+            break;
+          case "immigrati.php":
+            echo "Immigration in Italy Photography Reportage by Guido Fu&agrave;";
+            break;
+          case "giappone.php":
+            echo "Japan Photography Reportage by Guido Fu&agrave;";
+            break;
+          case "diamanti.php":
+            echo "Diamonds Trail Photography Reportage by Guido Fu&agrave;";
+            break;
+          case "newyork.php":
+            echo "New York Photography Reportage by Guido Fu&agrave;";
+            break;
+          case "cuba.php":
+            echo "Cuba Photography Reportage by Guido Fu&agrave;";
+            break;
+          case "panama.php":
+            echo "Panama Photography Reportage by Guido Fu&agrave;";
+            break;
+          default:
+            echo "Eikona digital imaging - Italian Photography Studio - Italian Photographer - Digital Imaging - Multimedia Production - Web Engineering";
+        }
+
+      ?>
+
+    ">
     <meta itemprop="description" content="Eikona Photography and Digital Imaging, Professional Studio based in Italy, specialized in portrait, commercial and reportage photography. Web Design and Multimedia Production.">
     <meta itemprop="URL" content="http://www.eikona.eu">
     <div itemprop='aggregateRating' itemscope itemtype='http://schema.org/AggregateRating'>
