@@ -11,7 +11,70 @@
           <meta itemprop='ratingValue' content='5' /> 
           <meta itemprop='ratingCount' content='1235' />
     </div>
-    <title>Eikona digital imaging - Italian Photography Studio - Italian Photographer - Digital Imaging - Multimedia Production - Web Engineering</title>
+    <title>
+
+      <?php 
+        $file = basename($_SERVER['PHP_SELF']);
+        switch ($file) {
+          case "portrait.php":
+            echo "Italian Portrait Photographer";
+            break;
+          case "about.php":
+            echo "Guido Fu&agrave; - Italian Photographer";
+            break;
+          case "reportage.php":
+            echo "Italian Reportage Photographer";
+            break;
+          case "corporate.php":
+            echo "Italian Advertising Photographer";
+            break;
+          case "food.php":
+            echo "Italian Food Photographer - Food Stylist";
+            break;
+          case "publication.php":
+            echo "Italian Editorial Photographer";
+            break;
+          case "projects.php":
+            echo "Guido Fu&agrave - Photography Projects";
+            break;
+          case "video.php":
+            echo "Italian Video Production";
+            break;
+          case "about.php":
+            echo "Guido Fu&agrave; Italian Photographer - Fotografo Roma";
+            break;
+          case "contact.php":
+            echo "Eikona - Studio Fotografico Roma";
+            break;
+          case "mozambico.php":
+            echo "Mozambico Photography Reportage by Guido Fu&agrave;";
+            break;
+          case "booghienights.php":
+            echo "Nightlife Photography Reportage by Guido Fu&agrave;";
+            break;
+          case "immigrati.php":
+            echo "Immigration in Italy Photography Reportage by Guido Fu&agrave;";
+            break;
+          case "giappone.php":
+            echo "Japan Photography Reportage by Guido Fu&agrave;";
+            break;
+          case "diamanti.php":
+            echo "Diamonds Trail Photography Reportage by Guido Fu&agrave;";
+            break;
+          case "newyork.php":
+            echo "New York Photography Reportage by Guido Fu&agrave;";
+            break;
+          case "cuba.php":
+            echo "Cuba Photography Reportage by Guido Fu&agrave;";
+            break;
+          case "panama.php":
+            echo "Panama Photography Reportage by Guido Fu&agrave;";
+            break;
+          default:
+            echo "Eikona digital imaging - Italian Photography Studio - Italian Photographer - Digital Imaging - Multimedia Production - Web Engineering";
+        }
+
+      ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Eikona Photography and Digital Imaging, Professional Studio based in Italy, specialized in portrait, commercial and reportage photography. Web Design and Multimedia Production.">
     <meta name="author" content="axyzxp@gmail.com" >
@@ -57,7 +120,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" href="<?php echo $basedir;?>"><img itemprop="image" src="<?php echo $basedir;?>img/eikona_guido.png" alt="" ></a>
+          <a class="brand" href="<?php echo $basedir;?>"><h1 style="font-size:30px;line-height:30px;"><img itemprop="image" src="<?php echo $basedir;?>img/eikona_guido.png" alt="Italian Photographer" ></h1></a>
           <div class="nav-collapse">
             <ul class="nav" style="margin-top:31px;">
               <li id="about"><a href="<?php echo $basedir;?>page/portrait.php" title="italian portrait photographer">&nbsp;portrait&nbsp;</a></li>
