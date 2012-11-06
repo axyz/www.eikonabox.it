@@ -66,7 +66,69 @@
       ?>
 
     ">
-    <meta itemprop="description" content="Eikona Photography and Digital Imaging, Professional Studio based in Italy, specialized in portrait, commercial and reportage photography. Web Design and Multimedia Production.">
+    <meta itemprop="description" content="
+
+    <?php 
+        $file = basename($_SERVER['PHP_SELF']);
+        switch ($file) {
+          case "portrait.php":
+            echo "Eikona Photography and Digital Imaging, Professional Studio based in Italy, specialized in portrait photography.";
+            break;
+          case "about.php":
+            echo "Eikona Photography and Digital Imaging, Professional Studio based in Italy, specialized in portrait, commercial and reportage photography. Web Design and Multimedia Production.";
+            break;
+          case "reportage.php":
+            echo "Eikona Photography and Digital Imaging, Professional Studio based in Italy, specialized in reportage photography.";
+            break;
+          case "corporate.php":
+            echo "Eikona Photography and Digital Imaging, Professional Studio based in Italy, specialized in advertising photography";
+            break;
+          case "food.php":
+            echo "Eikona Photography and Digital Imaging, Professional Studio based in Italy, specialized in food photography.";
+            break;
+          case "publication.php":
+            echo "Eikona Photography and Digital Imaging, Professional Studio based in Italy, specialized in editorial photography.";
+            break;
+          case "projects.php":
+            echo "Eikona Photography and Digital Imaging, Professional Studio based in Italy, specialized in portrait, commercial and reportage photography. Web Design and Multimedia Production.";
+            break;
+          case "video.php":
+            echo "Eikona Photography and Digital Imaging, Professional Studio based in Italy, specialized in Video and Multimedia Production.";
+            break;
+          case "contact.php":
+            echo "Eikona Photography and Digital Imaging, Professional Studio based in Italy, Studio fotografico a Roma, Noleggio sala Posa";
+            break;
+          case "mozambico.php":
+            echo "Photography Reportage about Mozambico by the Italian Photographer Guido Fu&agrave;";
+            break;
+          case "booghienights.php":
+            echo "Photography Reportage about the nightlife by the Italian Photographer Guido Fu&agrave;";
+            break;
+          case "immigrati.php":
+            echo "Photography Reportage about Italian Immigrates conditions by the Italian Photographer Guido Fu&agrave;";
+            break;
+          case "giappone.php":
+            echo "Photography Reportage about Japan by the Italian Photographer Guido Fu&agrave;";
+            break;
+          case "diamanti.php":
+            echo "Photography Reportage about the diamonds industries in Africa by the Italian Photographer Guido Fu&agrave;";
+            break;
+          case "newyork.php":
+            echo "Photography Reportage about New York by the Italian Photographer Guido Fu&agrave;";
+            break;
+          case "cuba.php":
+            echo "Photography Reportage about Cuba by the Italian Photographer Guido Fu&agrave;";
+            break;
+          case "panama.php":
+            echo "Photography Reportage about Panama by the Italian Photographer Guido Fu&agrave;";
+            break;
+          default:
+            echo "Eikona Photography and Digital Imaging, Professional Studio based in Italy, specialized in portrait, commercial and reportage photography. Web Design and Multimedia Production.";
+        }
+
+      ?>
+
+    ">
     <meta itemprop="URL" content="http://www.eikona.eu">
     <div itemprop='aggregateRating' itemscope itemtype='http://schema.org/AggregateRating'>
           <meta itemprop='ratingValue' content='5' /> 
