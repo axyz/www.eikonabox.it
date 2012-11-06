@@ -140,7 +140,72 @@
 
       ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Eikona Photography and Digital Imaging, Professional Studio based in Italy, specialized in portrait, commercial and reportage photography. Web Design and Multimedia Production.">
+    <meta name="description" content="
+
+    <?php 
+        $file = basename($_SERVER['PHP_SELF']);
+        switch ($file) {
+          case "portrait.php":
+            echo "Eikona Photography and Digital Imaging, Professional Studio based in Italy, specialized in portrait, commercial and reportage photography. Web Design and Multimedia Production.";
+            break;
+          case "about.php":
+            echo "Eikona Photography and Digital Imaging, Professional Studio based in Italy, specialized in portrait, commercial and reportage photography. Web Design and Multimedia Production.";
+            break;
+          case "reportage.php":
+            echo "Eikona Photography and Digital Imaging, Professional Studio based in Italy, specialized in portrait, commercial and reportage photography. Web Design and Multimedia Production.";
+            break;
+          case "corporate.php":
+            echo "Eikona Photography and Digital Imaging, Professional Studio based in Italy, specialized in portrait, commercial and reportage photography. Web Design and Multimedia Production.";
+            break;
+          case "food.php":
+            echo "Eikona Photography and Digital Imaging, Professional Studio based in Italy, specialized in portrait, commercial and reportage photography. Web Design and Multimedia Production.";
+            break;
+          case "publication.php":
+            echo "Eikona Photography and Digital Imaging, Professional Studio based in Italy, specialized in portrait, commercial and reportage photography. Web Design and Multimedia Production.";
+            break;
+          case "projects.php":
+            echo "Eikona Photography and Digital Imaging, Professional Studio based in Italy, specialized in portrait, commercial and reportage photography. Web Design and Multimedia Production.";
+            break;
+          case "video.php":
+            echo "Eikona Photography and Digital Imaging, Professional Studio based in Italy, specialized in portrait, commercial and reportage photography. Web Design and Multimedia Production.";
+            break;
+          case "about.php":
+            echo "Eikona Photography and Digital Imaging, Professional Studio based in Italy, specialized in portrait, commercial and reportage photography. Web Design and Multimedia Production.";
+            break;
+          case "contact.php":
+            echo "Eikona Photography and Digital Imaging, Professional Studio based in Italy, specialized in portrait, commercial and reportage photography. Web Design and Multimedia Production.";
+            break;
+          case "mozambico.php":
+            echo "Eikona Photography and Digital Imaging, Professional Studio based in Italy, specialized in portrait, commercial and reportage photography. Web Design and Multimedia Production.";
+            break;
+          case "booghienights.php":
+            echo "Eikona Photography and Digital Imaging, Professional Studio based in Italy, specialized in portrait, commercial and reportage photography. Web Design and Multimedia Production.";
+            break;
+          case "immigrati.php":
+            echo "Eikona Photography and Digital Imaging, Professional Studio based in Italy, specialized in portrait, commercial and reportage photography. Web Design and Multimedia Production.";
+            break;
+          case "giappone.php":
+            echo "Eikona Photography and Digital Imaging, Professional Studio based in Italy, specialized in portrait, commercial and reportage photography. Web Design and Multimedia Production.";
+            break;
+          case "diamanti.php":
+            echo "Eikona Photography and Digital Imaging, Professional Studio based in Italy, specialized in portrait, commercial and reportage photography. Web Design and Multimedia Production.";
+            break;
+          case "newyork.php":
+            echo "Eikona Photography and Digital Imaging, Professional Studio based in Italy, specialized in portrait, commercial and reportage photography. Web Design and Multimedia Production.";
+            break;
+          case "cuba.php":
+            echo "Eikona Photography and Digital Imaging, Professional Studio based in Italy, specialized in portrait, commercial and reportage photography. Web Design and Multimedia Production.";
+            break;
+          case "panama.php":
+            echo "Eikona Photography and Digital Imaging, Professional Studio based in Italy, specialized in portrait, commercial and reportage photography. Web Design and Multimedia Production.";
+            break;
+          default:
+            echo "Eikona Photography and Digital Imaging, Professional Studio based in Italy, specialized in portrait, commercial and reportage photography. Web Design and Multimedia Production.";
+        }
+
+      ?>
+
+    ">
     <meta name="author" content="axyzxp@gmail.com" >
     <meta name="keywords" content="Photographer, Italian Photography, Fotografo, Commercial, Editorial, Portrait, Advertising, Rome, Roma, Italy, Fashion, Pubblicità, Web Design, Multimedia Production, Italia" />
 
