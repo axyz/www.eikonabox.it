@@ -260,7 +260,69 @@
 
     ">
     <meta name="author" content="axyzxp@gmail.com" >
-    <meta name="keywords" content="Photographer, Italian Photography, Fotografo, Commercial, Editorial, Portrait, Advertising, Rome, Roma, Italy, Fashion, Pubblicità, Web Design, Multimedia Production, Italia" />
+    <meta name="keywords" content="
+
+    <?php 
+        $file = basename($_SERVER['PHP_SELF']);
+        switch ($file) {
+          case "portrait.php":
+            echo "Italian, Portrait, Photographer, fotografo, ritratti, roma";
+            break;
+          case "reportage.php":
+            echo "Italian, Reportage, Photographer, fotografo, reportage, roma";
+            break;
+          case "corporate.php":
+            echo "Italian, Advertising, Photographer, corporate, industrial, photography, fotografo, industriale, pubblicità, roma, italia";
+            break;
+          case "food.php":
+            echo "Italian, Food, Photographer, Food Stylist, fotografo, cibo, gastronomico, roma, chef";
+            break;
+          case "publication.php":
+            echo "Italian, Editorial, Photographer, fotografo, editoriale, roma, national, geographic, venerdì, xl, repubblica, espresso";
+            break;
+          case "projects.php":
+            echo "Guido, Fu&agrave, Photography, Projects, fotografo, roma, creativo, fine-art";
+            break;
+          case "video.php":
+            echo "Italian, Video, Production, montaggio, video, realizzazione, ripresa, motion design, effetti speciali, 3d artist";
+            break;
+          case "about.php":
+            echo "Guido Fu&agrave;, Italian, Photographer, Fotografo, Roma, italiano, insegnate, fotografia";
+            break;
+          case "contact.php":
+            echo "Eikona, Studio Fotografico, Roma, noleggio sala posa, affitto, set, attrezzatura";
+            break;
+          case "mozambico.php":
+            echo "Mozambico, Photography, Reportage, photo, africa, children, foto";
+            break;
+          case "booghienights.php":
+            echo "Nightlife, boogie, nights, Reportage, photo, foto, sex, transexual, provocatory";
+            break;
+          case "immigrati.php":
+            echo "Immigration, Italy, Photography, Reportage, immigrates, condizioni, immigrati, italia, roma, foto";
+            break;
+          case "giappone.php":
+            echo "Japan, Photography, Reportage, tokio, geisha";
+            break;
+          case "diamanti.php":
+            echo "Diamonds, Trail, traffic, Photography, Reportage, botswana, traffico, diamanti, operai, miniera";
+            break;
+          case "newyork.php":
+            echo "New York, Photography, Reportage, big apple, foto, usa, america";
+            break;
+          case "cuba.php":
+            echo "Cuba, Photography, Reportage, foto";
+            break;
+          case "panama.php":
+            echo "Panama, Photography, Reportage, foto";
+            break;
+          default:
+            echo "Photographer, Italian Photography, Fotografo, Commercial, Editorial, Portrait, Advertising, Rome, Roma, Italy, Fashion, Pubblicità, Web Design, Multimedia Production, Italia";
+        }
+
+      ?>
+
+    " />
 
     <!-- Le styles -->
     <link href="<?php echo $basedir;?>css/bootstrap.css" rel="stylesheet">
