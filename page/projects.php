@@ -203,35 +203,38 @@ a comprendere quello di donna guerriera e letale (Kill Bill, Sin City).
 		<?php innerSection("$basedir/page/cage.php","background:url($basedir/img/projects/cage.jpg) no-repeat 0px 14%;background-size:100%;","the cage","","
 			
 		<p>
-<b>L’idea</b> di una raccolta d’immagini da riunire sotto il titolo di “Sguardi collaterali”, è scaturita
-da una reiterata e sperimentata separazione tra fotografia intesa come professione e allo
-stesso tempo vissuta come strumento di libera espressione creativa. Una folta agenda di lavori
-fotografici commissionati procura sicurezza economica, ma a volte comporta anche obblighi
-e limitazioni, secondo canoni estetici vincolanti e necessità descrittive diverse dalle proprie
-inclinazioni. Lo sguardo collaterale, è uno scarto dell’occhio rivolto per caso o per destino di lato
-rispetto al soggetto focalizzato, quel movimento del collo verso un particolare incongruo e non
-pertinente, che risiede fuori del nostro campo della visione. Le quattordici immagini surreali,
-ironiche, drammatiche, mediate oppure colte nella loro immediatezza, costituiscono una raccolta
-di schegge diverse. Il loro unico legame è nascere da un impulso ribelle della visione, che
-distoglie lo sguardo dalla scena della routine professionale, e per puro impulso creativo indirizza
-la sua attenzione in modo collaterale verso un soggetto inaspettato e del tutto, o quasi, slegato
-dalle circostanze professionali. Una rivendicazione di libertà espressiva, che cerca profondità e
-spessore in un mondo in cui a volte i meccanismi della visione sembrano essere frettolosamente
-orientati e focalizzati entro limiti angusti e superficiali.</p>
-<p>Come ha commentato <b>Augusto Pieroni</b>, critico e antropologo:
-“La fotografia commerciale e ritrattistica, spesso si svolgono in locations e con modalità
-temporaneamente sottratte al normale flusso della vita. A volte quest’ultima trapela nei momenti
-più imprevisti dietro ai riflettori, intorno ai cavalletti e agli assistenti. Perfino i reportage presentano
-dei controcampi rivelatori che rifocalizzano improvvisamente il pensiero fotografico.
-Guido Fuà non ha fatto che collezionare una serie ricca ed eterogenea di simili “sguardi collaterali”,
-come li ha definiti lui stesso. Questa raccolta costante d’istanti ha come unico tratto comune quello
-di affermarsi come una verità imprevista, che si sostituisce a quella prevedibile e retorica che il
-fotografo era stato chiamato a costruire. Momenti in cui lo sguardo fa vacanza, si distrae e si ricrea,
-si deconcentra e si diverte, si astrae e sprofonda in un pensiero. Guido Fuà ci offre un itinerario
-serrato e rigoroso nella sua costruzione in forma di racconto collaterale, grazie al quale lo spettatore
-fissa nella propria mente l’immagine, che può osservare e ponderare nello scenario virtuale di una
-fotografia ufficiale ora, per una volta, totalmente invisibile”.
-</p>
+<b>L'essere umano</b>, eletto e condannato al suo ruolo, costruisce la sua identità in funzione della società cui appartiene. 
+Come in una gabbia osserva il mondo dalle sbarre, convinto dell'immutabilità del proprio stato. Allo stesso modo l'osservatore attento penserà di trovarsi
+di fronte ad un animale in cattività, alle prese col suo rifiuto o la sua accettazione in un sicuro e neutrale giardino zoologico.</p>
+<p><b>La gabbia</b> è dunque prigione, ma anche prospettiva. Emblema di ciò che ci viene imposto, ma anche di un rifugio sicuro. Porre l'uomo da solo 
+in un luogo angusto e senza vie di uscita significa porlo di fronte a se stesso e alla sua identità. I suoi abiti, i suoi sguardi e le sue provocazioni 
+divengono soggetti attivi anzichè complementi della sua recitazione. Gettate assieme nell'arena, l'identità reale e quella artificiale, si osservano per 
+la prima volta e la loro dialettica è la raffigurazione più accurata che possiamo avere dell'essere umano.</p>
+<p><b>Ponendosi</b> al di là delle sbarre, nascosti dietro l'obiettivo, possiamo essere spettatori privilegiati di tutto questo. L'occhio imparziale della 
+fotocamera per un attimo restituisce la realtà non più per come appare, ma per come è. Compito del fotografo è catturare quell'istante e dilatarlo nel 
+tempo fino a renderlo infinito.
+
+		", "project"); ?>
+
+
+
+		<hr>
+
+
+
+		<?php innerSection("$basedir/page/nude.php","background:url($basedir/img/projects/nude.jpg) no-repeat 0px 14%;background-size:100%;","nudes","","
+			
+		<p>
+<b>L'essere umano</b>, eletto e condannato al suo ruolo, costruisce la sua identità in funzione della società cui appartiene. 
+Come in una gabbia osserva il mondo dalle sbarre, convinto dell'immutabilità del proprio stato. Allo stesso modo l'osservatore attento penserà di trovarsi
+di fronte ad un animale in cattività, alle prese col suo rifiuto o la sua accettazione in un sicuro e neutrale giardino zoologico.</p>
+<p><b>La gabbia</b> è dunque prigione, ma anche prospettiva. Emblema di ciò che ci viene imposto, ma anche di un rifugio sicuro. Porre l'uomo da solo 
+in un luogo angusto e senza vie di uscita significa porlo di fronte a se stesso e alla sua identità. I suoi abiti, i suoi sguardi e le sue provocazioni 
+divengono soggetti attivi anzichè complementi della sua recitazione. Gettate assieme nell'arena, l'identità reale e quella artificiale, si osservano per 
+la prima volta e la loro dialettica è la raffigurazione più accurata che possiamo avere dell'essere umano.</p>
+<p><b>Ponendosi</b> al di là delle sbarre, nascosti dietro l'obiettivo, possiamo essere spettatori privilegiati di tutto questo. L'occhio imparziale della 
+fotocamera per un attimo restituisce la realtà non più per come appare, ma per come è. Compito del fotografo è catturare quell'istante e dilatarlo nel 
+tempo fino a renderlo infinito.
 
 		", "project"); ?>
 

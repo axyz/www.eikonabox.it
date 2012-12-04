@@ -8,6 +8,7 @@
     </div>
 
 
+
     <?php innerSection("$basedir/page/mozambico.php",
     									 "background:url($basedir/img/reportage/mozambico.jpg) no-repeat 0px 38%;background-size:100%;",
     									 "mozambico",
@@ -53,9 +54,9 @@
 
     <br>
 
-    <?php innerSection("$basedir/page/newyork.php",
+    <?php innerSection("$basedir/page/us.php",
     								   "background:url($basedir/img/reportage/newyork.jpg) no-repeat 0px 24%;background-size:100%;",
-    								   "new york aftermath",
+    								   "United States",
     								   "",
     								   "", 
     								   "reportage");?>
