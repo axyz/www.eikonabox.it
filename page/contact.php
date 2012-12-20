@@ -45,7 +45,7 @@ if(trim($_POST['message']) == '') {
 
 //If there is no error, send the email
 if(!isset($hasError)) {
-	$emailTo = 'axyzxp@gmail.com'; // Put your own email address here
+	$emailTo = 'eikonabox@gmail.com'; // Put your own email address here
 	$body = "Name: $name \n\nEmail: $email \n\nPhone Number: $phone \n\nSubject: $subject \n\nComments:\n $comments";
 	$headers = 'From: My Site <'.$emailTo.'>' . "\r\n" . 'Reply-To: ' . $email;
 

@@ -28,20 +28,24 @@
     </div>
     <!--div style="text-align:center;margin-top: -100px;"><img src="<?php echo $basedir;?>img/comingsoon.png" /></div-->
       <div class="video-container">
-        <iframe src="http://player.vimeo.com/video/50775240" width="400" height="500" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+        <iframe src="http://player.vimeo.com/video/55288646" width="400" height="500" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
       </div>
-      <br>
+      <span>© 2012 Guido Fuà for THE WORLD BANK - All rights reserved</span>
+      <br><br>
       <div class="video-container">
-        <iframe src="http://player.vimeo.com/video/25507778" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+        <iframe src="http://player.vimeo.com/video/55288647" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
       </div>
-      <br>
+      <span>© 2012 Guido Fuà for THE WORLD BANK - All rights reserved</span>
+      <br><br>
       <div class="video-container">
-        <iframe src="http://player.vimeo.com/video/25506856" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>      
+        <iframe src="http://player.vimeo.com/video/24524624" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>      
       </div>
-      <br>
+      <span>© 2012 Guido Fuà for ENEL Green Power - All rights reserved</span>
+      <br><br>
       <div class="video-container">
-        <iframe src="http://player.vimeo.com/video/25505016" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>      
+        <iframe src="http://player.vimeo.com/video/55288648" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>      
       </div>
+      <span>© 2012 Guido Fuà for THE WORLD BANK - All rights reserved</span>
   </div>
 </div>
 

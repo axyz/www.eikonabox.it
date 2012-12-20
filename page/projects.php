@@ -222,7 +222,7 @@ tempo fino a renderlo infinito.
 
 
 
-		<?php innerSection("$basedir/page/nude.php","background:url($basedir/img/projects/nude.jpg) no-repeat 0px 14%;background-size:100%;","nudes","","
+		<!--?php innerSection("$basedir/page/nude.php","background:url($basedir/img/projects/nude.jpg) no-repeat 0px 14%;background-size:100%;","nudes","","
 			
 		<p>
 <b>L'essere umano</b>, eletto e condannato al suo ruolo, costruisce la sua identità in funzione della società cui appartiene. 
@@ -236,7 +236,7 @@ la prima volta e la loro dialettica è la raffigurazione più accurata che possi
 fotocamera per un attimo restituisce la realtà non più per come appare, ma per come è. Compito del fotografo è catturare quell'istante e dilatarlo nel 
 tempo fino a renderlo infinito.
 
-		", "project"); ?>
+		", "project"); ?-->
 
 
 
