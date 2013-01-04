@@ -33,6 +33,8 @@ $(function(){
 
 	setActiveNav();
 
+  $("body").css({"visibility" : "visible"});
+  
 	$('.flexslider').flexslider({
     	animation: "fade",
     	controlNav: false,

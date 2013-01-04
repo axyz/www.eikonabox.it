@@ -1,5 +1,6 @@
 <?php include("page/header.php"); ?> 
 <style>
+body{visibility:hidden;}
 .home .span4, .home .span12 {
 	margin-bottom:20px;
 }
