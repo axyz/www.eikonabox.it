@@ -1,6 +1,6 @@
 <?php include("header.php"); ?>
 <?php include("../php/innerSection.php"); ?>
-
+<style>body{visibility:hidden;}</style>
 <section>
 	<div class="container inner-page">
 		<div class="page-header">

@@ -1,4 +1,5 @@
 <?php include("header.php"); ?>
+<style>body{visibility:hidden;}</style>
 <?php
 if(isset($_POST['submit'])) {
 

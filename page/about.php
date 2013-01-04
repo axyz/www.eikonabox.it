@@ -1,5 +1,5 @@
 <?php include("header.php"); ?>
-
+<style>body{visibility:hidden;}</style>
 <section>
 	<div class="container">
 		<div class="row">

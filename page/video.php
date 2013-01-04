@@ -1,5 +1,5 @@
 <?php include("header.php"); ?>
-
+<style>body{visibility:hidden;}</style>
 <style type="text/css">
 .video-container {
   position: relative;
