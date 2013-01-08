@@ -9,6 +9,15 @@
 
 
 
+    <?php innerSection("$basedir/page/sierra-leone.php",
+                                         "background:url($basedir/img/reportage/sierra-leone.jpg) no-repeat 0px 12%;background-size:100%;",
+                                         "sierra leone",
+                                         "",
+                                         "", 
+                                         "reportage");?>
+
+        <br>
+
     <?php innerSection("$basedir/page/mozambico.php",
     									 "background:url($basedir/img/reportage/mozambico.jpg) no-repeat 0px 38%;background-size:100%;",
     									 "mozambico",
