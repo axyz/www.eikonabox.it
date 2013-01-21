@@ -12,7 +12,7 @@
     <?php innerSection("$basedir/page/sierra-leone.php",
                                          "background:url($basedir/img/reportage/sierra-leone.jpg) no-repeat 0px 12%;background-size:100%;",
                                          "sierra leone",
-                                         "",
+                                         "© 2012 Guido Fuà for THE WORLD BANK - All rights reserved",
                                          "", 
                                          "reportage");?>
 
