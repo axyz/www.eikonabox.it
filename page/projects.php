@@ -139,6 +139,36 @@ scismatica, tutte le opportunità dell’armonizzazione cosciente delle diversit
 
 
 
+		<?php innerSection("$basedir/page/cage.php","background:url($basedir/img/projects/cage.jpg) no-repeat 0px 14%;background-size:100%;","the cage","","
+			
+		<p>
+<b>L'essere umano</b>, eletto e condannato al suo ruolo, costruisce la sua identità in funzione della società cui appartiene. 
+Come in una gabbia osserva il mondo dalle sbarre, convinto dell'immutabilità del proprio stato. Allo stesso modo l'osservatore attento penserà di trovarsi
+di fronte ad un animale in cattività, alle prese col suo rifiuto o la sua accettazione in un sicuro e neutrale giardino zoologico.</p>
+<p><b>La gabbia</b> è dunque prigione, ma anche prospettiva. Emblema di ciò che ci viene imposto, ma anche di un rifugio sicuro. Porre l'uomo da solo 
+in un luogo angusto e senza vie di uscita significa porlo di fronte a se stesso e alla sua identità. I suoi abiti, i suoi sguardi e le sue provocazioni 
+divengono soggetti attivi anzichè complementi della sua recitazione. Gettate assieme nell'arena, l'identità reale e quella artificiale, si osservano per 
+la prima volta e la loro dialettica è la raffigurazione più accurata che possiamo avere dell'essere umano.</p>
+<p><b>Ponendosi</b> al di là delle sbarre, nascosti dietro l'obiettivo, possiamo essere spettatori privilegiati di tutto questo. L'occhio imparziale della 
+fotocamera per un attimo restituisce la realtà non più per come appare, ma per come è. Compito del fotografo è catturare quell'istante e dilatarlo nel 
+tempo fino a renderlo infinito.
+
+		", "project"); ?>
+
+
+
+		<hr>
+
+
+
+		<?php innerSection("$basedir/page/nude.php","background:url($basedir/img/projects/nude.jpg) no-repeat 0px 94%;background-size:100%;","unveiled","","
+			
+		", "project"); ?>
+
+
+		<hr>
+
+
 		<?php innerSection("$basedir/page/darkladies.php","background:url($basedir/img/projects/darkladies.jpg) no-repeat 0px 14%;background-size:100%;","Dark Ladies","","
 			
 		<p>
@@ -193,50 +223,6 @@ a comprendere quello di donna guerriera e letale (Kill Bill, Sin City).
 </p>
 
 		", "project"); ?>
-
-
-
-		<hr>
-
-
-
-		<?php innerSection("$basedir/page/cage.php","background:url($basedir/img/projects/cage.jpg) no-repeat 0px 14%;background-size:100%;","the cage","","
-			
-		<p>
-<b>L'essere umano</b>, eletto e condannato al suo ruolo, costruisce la sua identità in funzione della società cui appartiene. 
-Come in una gabbia osserva il mondo dalle sbarre, convinto dell'immutabilità del proprio stato. Allo stesso modo l'osservatore attento penserà di trovarsi
-di fronte ad un animale in cattività, alle prese col suo rifiuto o la sua accettazione in un sicuro e neutrale giardino zoologico.</p>
-<p><b>La gabbia</b> è dunque prigione, ma anche prospettiva. Emblema di ciò che ci viene imposto, ma anche di un rifugio sicuro. Porre l'uomo da solo 
-in un luogo angusto e senza vie di uscita significa porlo di fronte a se stesso e alla sua identità. I suoi abiti, i suoi sguardi e le sue provocazioni 
-divengono soggetti attivi anzichè complementi della sua recitazione. Gettate assieme nell'arena, l'identità reale e quella artificiale, si osservano per 
-la prima volta e la loro dialettica è la raffigurazione più accurata che possiamo avere dell'essere umano.</p>
-<p><b>Ponendosi</b> al di là delle sbarre, nascosti dietro l'obiettivo, possiamo essere spettatori privilegiati di tutto questo. L'occhio imparziale della 
-fotocamera per un attimo restituisce la realtà non più per come appare, ma per come è. Compito del fotografo è catturare quell'istante e dilatarlo nel 
-tempo fino a renderlo infinito.
-
-		", "project"); ?>
-
-
-
-		<hr>
-
-
-
-		<!--?php innerSection("$basedir/page/nude.php","background:url($basedir/img/projects/nude.jpg) no-repeat 0px 14%;background-size:100%;","nudes","","
-			
-		<p>
-<b>L'essere umano</b>, eletto e condannato al suo ruolo, costruisce la sua identità in funzione della società cui appartiene. 
-Come in una gabbia osserva il mondo dalle sbarre, convinto dell'immutabilità del proprio stato. Allo stesso modo l'osservatore attento penserà di trovarsi
-di fronte ad un animale in cattività, alle prese col suo rifiuto o la sua accettazione in un sicuro e neutrale giardino zoologico.</p>
-<p><b>La gabbia</b> è dunque prigione, ma anche prospettiva. Emblema di ciò che ci viene imposto, ma anche di un rifugio sicuro. Porre l'uomo da solo 
-in un luogo angusto e senza vie di uscita significa porlo di fronte a se stesso e alla sua identità. I suoi abiti, i suoi sguardi e le sue provocazioni 
-divengono soggetti attivi anzichè complementi della sua recitazione. Gettate assieme nell'arena, l'identità reale e quella artificiale, si osservano per 
-la prima volta e la loro dialettica è la raffigurazione più accurata che possiamo avere dell'essere umano.</p>
-<p><b>Ponendosi</b> al di là delle sbarre, nascosti dietro l'obiettivo, possiamo essere spettatori privilegiati di tutto questo. L'occhio imparziale della 
-fotocamera per un attimo restituisce la realtà non più per come appare, ma per come è. Compito del fotografo è catturare quell'istante e dilatarlo nel 
-tempo fino a renderlo infinito.
-
-		", "project"); ?-->
 
 
 
