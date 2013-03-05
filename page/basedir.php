@@ -1,1 +1,1 @@
-<?php $basedir ="/eikonanew/";?>
+<?php $basedir ="/www/eikonanew/";?>
