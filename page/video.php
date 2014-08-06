@@ -9,8 +9,8 @@
   overflow: hidden;
 }
 
-.video-container iframe,  
-.video-container object,  
+.video-container iframe,
+.video-container object,
 .video-container embed {
   position: absolute;
   top: 0;
@@ -38,12 +38,17 @@
       <span>© 2012 Guido Fuà for THE WORLD BANK - All rights reserved</span>
       <br><br>
       <div class="video-container">
-        <iframe src="http://player.vimeo.com/video/24524624" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>      
+        <iframe src="http://player.vimeo.com/video/" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+      </div>
+      <span>© 2012 Guido Fuà for National Geographic - All rights reserved</span>
+      <br><br>
+      <div class="video-container">
+        <iframe src="http://player.vimeo.com/video/24524624" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
       </div>
       <span>© 2012 Guido Fuà for ENEL Green Power - All rights reserved</span>
       <br><br>
       <div class="video-container">
-        <iframe src="http://player.vimeo.com/video/55288648" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>      
+        <iframe src="http://player.vimeo.com/video/55288648" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
       </div>
       <span>© 2012 Guido Fuà for THE WORLD BANK - All rights reserved</span>
   </div>

@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<?php include(dirname(__FILE__) . "/basedir.php"); ?> 
+<?php include(dirname(__FILE__) . "/basedir.php"); ?>
 
 <html lang="en" itemscope itemtype="http://schema.org/LocalBusiness">
   <head>
     <meta charset="utf-8">
     <meta itemprop="name" content="
-    <?php 
+    <?php
         $file = basename($_SERVER['PHP_SELF']);
         switch ($file) {
           case "portrait.php":
@@ -59,6 +59,9 @@
           case "panama.php":
             echo "Panama Photography Reportage by Guido Fu&agrave;";
             break;
+          case "fashion.php":
+            echo "Italian Fashion Photographer";
+            break;
           default:
             echo "Eikona digital imaging - Italian Photography Studio - Italian Photographer - Digital Imaging - Multimedia Production - Web Engineering";
         }
@@ -68,7 +71,7 @@
     ">
     <meta itemprop="description" content="
 
-    <?php 
+    <?php
         $file = basename($_SERVER['PHP_SELF']);
         switch ($file) {
           case "portrait.php":
@@ -85,6 +88,9 @@
             break;
           case "food.php":
             echo "Eikona Photography and Digital Imaging, Professional Studio based in Italy, specialized in food photography.";
+            break;
+          case "food.php":
+            echo "Eikona Photography and Digital Imaging, Professional Studio based in Italy, specialized in fashion photography.";
             break;
           case "publication.php":
             echo "Eikona Photography and Digital Imaging, Professional Studio based in Italy, specialized in editorial photography.";
@@ -131,12 +137,12 @@
     ">
     <meta itemprop="URL" content="http://www.eikona.eu">
     <div itemprop='aggregateRating' itemscope itemtype='http://schema.org/AggregateRating'>
-          <meta itemprop='ratingValue' content='5' /> 
+          <meta itemprop='ratingValue' content='5' />
           <meta itemprop='ratingCount' content='1235' />
     </div>
     <title>
 
-      <?php 
+      <?php
         $file = basename($_SERVER['PHP_SELF']);
         switch ($file) {
           case "portrait.php":
@@ -150,6 +156,9 @@
             break;
           case "food.php":
             echo "Italian Food Photographer - Food Stylist";
+            break;
+          case "fashion.php":
+            echo "Italian fashion Photographer";
             break;
           case "publication.php":
             echo "Italian Editorial Photographer";
@@ -198,7 +207,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="
 
-    <?php 
+    <?php
         $file = basename($_SERVER['PHP_SELF']);
         switch ($file) {
           case "portrait.php":
@@ -215,6 +224,9 @@
             break;
           case "food.php":
             echo "Eikona Photography and Digital Imaging, Professional Studio based in Italy, specialized in food photography.";
+            break;
+          case "fashion.php":
+            echo "Eikona Photography and Digital Imaging, Professional Studio based in Italy, specialized in fashion photography.";
             break;
           case "publication.php":
             echo "Eikona Photography and Digital Imaging, Professional Studio based in Italy, specialized in editorial photography.";
@@ -262,7 +274,7 @@
     <meta name="author" content="axyzxp@gmail.com" >
     <meta name="keywords" content="
 
-    <?php 
+    <?php
         $file = basename($_SERVER['PHP_SELF']);
         switch ($file) {
           case "portrait.php":
@@ -276,6 +288,9 @@
             break;
           case "food.php":
             echo "Italian, Food, Photographer, Food Stylist, fotografo, cibo, gastronomico, roma, chef";
+            break;
+          case "fashion.php":
+            echo "Italian, Fashion, Photographer, moda, fotografo, acconciature, vestiti, modella, stilista";
             break;
           case "publication.php":
             echo "Italian, Editorial, Photographer, fotografo, editoriale, roma, national, geographic, venerdì, xl, repubblica, espresso";
@@ -354,7 +369,7 @@
     <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
   </head>
 
-  <body>
+  <body style="visibility:hidden;">
 <header>
     <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
@@ -370,11 +385,12 @@
               <li id="about"><a href="<?php echo $basedir;?>page/portrait.php" title="italian portrait photographer">&nbsp;portrait&nbsp;</a></li>
               <li id="about"><span class="hidden-tablet hidden-phone">/&nbsp;</span><a href="<?php echo $basedir;?>page/reportage.php" title="italian reportage photographer">&nbsp;reportage&nbsp;</a></li>
               <li id="about"><span class="hidden-tablet hidden-phone">/&nbsp;</span><a href="<?php echo $basedir;?>page/corporate.php" title="italian corporate photographer">&nbsp;advertising&nbsp;</a></li>
-              <li id="about"><span class="hidden-tablet hidden-phone">/&nbsp;</span><a href="<?php echo $basedir;?>page/food.php" title="italian food photographer">&nbsp;food&nbsp;</a></li>
-              <li id="about"><span class="hidden-tablet hidden-phone">/&nbsp;</span><a href="<?php echo $basedir;?>page/publication.php" title="italian publication photographer">&nbsp;publication&nbsp;</a></li>
+              <li id="about"><span class="hidden-tablet hidden-phone">/&nbsp;</span><a href="<?php echo $basedir;?>page/fashion.php" title="italian fashion photographer">&nbsp;fashion&nbsp;</a></li>
+              <li id="about"><span class="hidden-tablet hidden-phone">/&nbsp;</span><a href="<?php echo $basedir;?>page/interiors.php" title="italian interiors photographer">&nbsp;interiors&nbsp;</a></li>
+              <li id="about"><span class="hidden-tablet hidden-phone">/&nbsp;</span><a href="<?php echo $basedir;?>page/publication.php" title="italian publication photographer">&nbsp;tearsheets&nbsp;</a></li>
               <li id="about"><span class="hidden-tablet hidden-phone">/&nbsp;</span><a href="<?php echo $basedir;?>page/projects.php" title="italian photographer">&nbsp;projects&nbsp;</a></li>
               <li id="about"><span class="hidden-tablet hidden-phone">/&nbsp;</span><a href="<?php echo $basedir;?>page/video.php" title="italian video production">&nbsp;video&nbsp;</a></li>
-        
+
               <li id="about"><span class="hidden-tablet hidden-phone">/&nbsp;</span><a style="color:#d60;" href="<?php echo $basedir;?>page/about.php" title="about us" alt="about us">&nbsp;about&nbsp;</a></li>
               <li id="contact"><span class="hidden-tablet hidden-phone">/&nbsp;</span><a style="color:#d60;" href="<?php echo $basedir;?>page/contact.php" title="contact us" alt="contact us">&nbsp;contact&nbsp;</a></li>
               <li id="contact"><span class="hidden-tablet hidden-phone">/&nbsp;</span><a style="color:#d60;" href="http://guidofua.com/blog" title="Guido FU&agrave; Photography blog" alt="Guido FU&agrave; Photography blog">&nbsp;blog&nbsp;</a></li>
@@ -382,7 +398,6 @@
                 <a class="social" href="https://www.facebook.com/guido.fua" target="_blank"><i class="icon-facebook-sign"></i></a>
                 <a class="social" href="https://twitter.com/guidofua" target="_blank"><i class="icon-twitter-sign"></i></a>
                 <a class="social" href="http://pinterest.com/guidofua/" target="_blank"><i class="icon-pinterest-sign"></i></a>
-                <a class="social" href="http://www.linkedin.com/in/eikona" target="_blank"><i class="icon-linkedin-sign"></i></a>
                 <a class="social" href="https://plus.google.com/u/0/110372748342070641271" target="_blank"><i class="icon-google-plus-sign"></i></a>
               </li>
             </ul>
@@ -394,4 +409,4 @@
 
 <body>
 
-	
+

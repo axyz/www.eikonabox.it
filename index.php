@@ -1,4 +1,4 @@
-<?php include("page/header.php"); ?> 
+<?php include("page/header.php"); ?>
 <style>
 body{visibility:hidden;}
 .home .span4, .home .span12 {
@@ -75,9 +75,19 @@ body{visibility:hidden;}
 			</a>
 		</div>
 		<div class="span4 shadow">
-			<a href="<?php echo $basedir;?>page/food.php" title="italian food photographer">
-				<div class="home-section" style="background:url(img/home/fotografo-cibo-roma.jpg) no-repeat 0px 40%;background-size:100%;" >
-					<div class="home-section-title">food</div>
+			<a href="<?php echo $basedir;?>page/fashion.php" title="italian fashion photographer">
+				<div class="home-section" style="background:url(img/home/fotografo-fashion-roma.jpg) no-repeat 0px 20%;background-size:100%;" >
+					<div class="home-section-title">fashion</div>
+				</div>
+			</a>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="span12 shadow">
+			<a href="<?php echo $basedir;?>page/interiors.php" title="italian interiors photographer">
+				<div class="home-section large" style="background:url(img/home/fotografo-roma.jpg) no-repeat 0px 78%;background-size:100%;" >
+					<div class="home-section-title">interiors</div>
 				</div>
 			</a>
 		</div>
@@ -87,20 +97,20 @@ body{visibility:hidden;}
 		<div class="span4 shadow">
 			<a href="<?php echo $basedir;?>page/publication.php" title="italian editorial photographer">
 				<div class="home-section" style="background:url(img/home/fotografo-editoriale-roma.jpg) no-repeat 0px 18%;background-size:100%;" >
-					<div class="home-section-title">publication</div>
+					<div class="home-section-title">tearsheets</div>
 				</div>
 			</a>
 		</div>
 		<div class="span4 shadow">
 			<a href="<?php echo $basedir;?>page/projects.php" title="italian photographer">
-				<div class="home-section" style="background:url(img/home/fotografo-roma.jpg) no-repeat 0px 80%;background-size:100%;" >
+				<div class="home-section" style="background:url(img/home/videomaker-produzioni-video-roma.jpg) no-repeat 0px 40%;background-size:100%;" >
 					<div class="home-section-title">projects</div>
 				</div>
 			</a>
 		</div>
 		<div class="span4 shadow">
 			<a href="<?php echo $basedir;?>page/video.php" title="italian video production">
-				<div class="home-section" style="background:url(img/home/videomaker-produzioni-video-roma.jpg) no-repeat 0px 38%;background-size:100%;" >
+				<div class="home-section" style="background:url(img/home/video-production-roma.jpg) no-repeat 0px 38%;background-size:100%;" >
 					<div class="home-section-title">video</div>
 				</div>
 			</a>
@@ -110,7 +120,7 @@ body{visibility:hidden;}
 </div>
 </section>
 
-<?php include("page/footer.php"); ?> 
+<?php include("page/footer.php"); ?>
 <script type="text/javascript">
 $(function(){
 

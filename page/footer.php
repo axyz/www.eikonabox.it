@@ -8,8 +8,9 @@
             <li class="hidden-tablet">/&nbsp;<a href="<?php echo $basedir;?>page/portrait.php">portrait</a></li>
             <li class="hidden-tablet">/&nbsp;<a href="<?php echo $basedir;?>page/reportage.php">reportage</a></li>
             <li class="hidden-tablet">/&nbsp;<a href="<?php echo $basedir;?>page/corporate.php">advertising</a></li>
-            <li class="hidden-tablet">/&nbsp;<a href="<?php echo $basedir;?>page/food.php">food</a></li>
-            <li class="hidden-tablet">/&nbsp;<a href="<?php echo $basedir;?>page/publication.php">publication</a></li>
+            <li class="hidden-tablet">/&nbsp;<a href="<?php echo $basedir;?>page/fashion.php">fashion</a></li>
+            <li class="hidden-tablet">/&nbsp;<a href="<?php echo $basedir;?>page/interiors.php">interiors</a></li>
+            <li class="hidden-tablet">/&nbsp;<a href="<?php echo $basedir;?>page/publication.php">tearsheets</a></li>
             <li class="hidden-tablet">/&nbsp;<a href="<?php echo $basedir;?>page/projects.php">projects</a></li>
             <li class="hidden-tablet">/&nbsp;<a href="<?php echo $basedir;?>page/video.php">video</a></li>
             <li>/&nbsp;<a style="color:#d60;" href="<?php echo $basedir;?>page/about.php">about</a></li>

@@ -6,7 +6,7 @@ function setActiveNav(){
 	sPage = sPage.split(".");
 	sPage = sPage[0];
 	
-   $('.nav li').each(function() {
+  $('.nav li').each(function() {
    	$(this).removeClass('active');
     	href = $(this).find('a').attr('href');
     	href = (typeof href === 'undefined') ? "" : href.split("/");
@@ -19,10 +19,10 @@ function setActiveNav(){
 }
 
 function obclose(){
-    $('li').click(function(){
-      $(document).orangeBox('destroy');
-    });
-  }
+  $('li').click(function(){
+    $(document).orangeBox('destroy');
+  });
+}
 
 $(function(){
 
@@ -32,47 +32,46 @@ $(function(){
   $.support.transition = undefined;
 
 	setActiveNav();
-
-  $("body").css({"visibility" : "visible"});
   
 	$('.flexslider').flexslider({
-    	animation: "fade",
-    	controlNav: false,
-    	directionNav: false,
-  	});
-
-   var $container = $('#photoswipe');
-
-$container.imagesLoaded(function(){
-  $container.masonry({
-    itemSelector: '.box',
-    columnWidth: 1,
-    isAnimated: false
+    animation: "fade",
+    controlNav: false,
+    directionNav: false,
   });
-  $('#photoswipe').css('visibility', 'visible');
-});
 
-$container.infinitescroll({
-  navSelector : '#page-nav', // selector for the paged navigation
-  nextSelector : '#page-nav a', // selector for the NEXT link (to page 2)
-  itemSelector : '.box', // selector for all items you'll retrieve
-  bufferPx     : 600,
-  loading: {
-    finishedMsg: 'No more photos to show.',
-    img: "http://www.infinite-scroll.com/loading.gif",
-  }
-},
-// trigger Masonry as a callback
-function( newElements ) {
-// hide new items while they are loading
-  var $newElems = $( newElements ).css({ opacity: 0 });
-// ensure that images load before adding to masonry layout
-  $newElems.imagesLoaded(function(){
-// show elems now they're ready
-    $newElems.animate({ opacity: 1 });
-    $container.masonry( 'appended', $newElems, true );
+  var $container = $('#photoswipe');
+
+  $container.imagesLoaded(function(){
+    $container.masonry({
+      itemSelector: '.box',
+      columnWidth: 1,
+      isAnimated: false
+    });
+    $('#photoswipe').css('visibility', 'visible');
   });
-});
+
+  $container.infinitescroll({
+    navSelector : '#page-nav', // selector for the paged navigation
+    nextSelector : '#page-nav a', // selector for the NEXT link (to page 2)
+    itemSelector : '.box', // selector for all items you'll retrieve
+    bufferPx     : 600,
+    loading: {
+      finishedMsg: 'No more photos to show.',
+      img: "http://www.infinite-scroll.com/loading.gif",
+    }
+    },
+    // trigger Masonry as a callback
+    function( newElements ) {
+    // hide new items while they are loading
+      var $newElems = $( newElements ).css({ opacity: 0 });
+      // ensure that images load before adding to masonry layout
+      $newElems.imagesLoaded(function(){
+      // show elems now they're ready
+        $newElems.animate({ opacity: 1 });
+        $container.masonry( 'appended', $newElems, true );
+      });
+    }
+  );
 
 
   $('#videogallery').masonry({ columnWidth: 1,});
@@ -82,35 +81,38 @@ function( newElements ) {
 	//var myPhotoSwipe = $("#photoswipe a").photoSwipe({ enableMouseWheel: true , enableKeyboard: true });
 
   $('#photoswipe a').fancybox({
-        padding : 0,
-        beforeShow: function () {
-            $('.fancybox-wrap').hide();
-            if (this.title) {
-                // New line
-                this.title += '<br /><br />';
+    padding : 0,
+    beforeShow: function () {
+      $('.fancybox-wrap').hide();
+      if (this.title) {
+        // New line
+        this.title += '<br /><br />';
 
-                // Add FaceBook like button
-                this.title += '<a href="http://www.facebook.com/sharer.php?u=http://eikona.eu/php/static.php?img=http://eikona.eu/page/' + this.href + '" class="social-icon"><i style="font-size: 22px;" class="icon-facebook-sign icon-large"></i></a>&nbsp;&nbsp;&nbsp;';
-                
-                this.title += '<a href="http://pinterest.com/pin/create/button/?url=http%3A%2F%2Feikona.eu&media=http%3A%2F%2Feikona.eu%2Fpage%2F' + this.href + '" class="social-icon"><i style="font-size: 22px;" class="icon-pinterest icon-large"></i></a>&nbsp;&nbsp;&nbsp;';
+        // Add FaceBook like button
+        this.title += '<a href="http://www.facebook.com/sharer.php?u=http://eikona.eu/php/static.php?img=http://eikona.eu/page/' + this.href + '" class="social-icon"><i style="font-size: 22px;" class="icon-facebook-sign icon-large"></i></a>&nbsp;&nbsp;&nbsp;';
+        
+        this.title += '<a href="http://pinterest.com/pin/create/button/?url=http%3A%2F%2Feikona.eu&media=http%3A%2F%2Feikona.eu%2Fpage%2F' + this.href + '" class="social-icon"><i style="font-size: 22px;" class="icon-pinterest icon-large"></i></a>&nbsp;&nbsp;&nbsp;';
 
-                this.title += '<a href="https://plusone.google.com/_/+1/confirm?hl=en&url=http://eikona.eu/" class="social-icon"><i style="font-size: 22px;" class="icon-google-plus-sign icon-large"></i></a>&nbsp;&nbsp;&nbsp;';
-                // Add tweet button
-                this.title += '<a href="https://twitter.com/share" class="social-icon twitter-share-button" data-related="guidofua" data-hashtags="photography"><i style="font-size: 25px;" class="icon-twitter icon-large"></i></a>';
-            }
-            
-        },
-        afterShow: function() {
-            $('.fancybox-wrap').hide();
-            $.fancybox.update();
-            $('.fancybox-opened .fancybox-title').css('margin-top', '-65px');
-            $('.fancybox-wrap').show();
-        },
-        helpers : {
-            title : {
-                type: 'inside'
-            }
-        }  
-    });
+        this.title += '<a href="https://plusone.google.com/_/+1/confirm?hl=en&url=http://eikona.eu/" class="social-icon"><i style="font-size: 22px;" class="icon-google-plus-sign icon-large"></i></a>&nbsp;&nbsp;&nbsp;';
+        // Add tweet button
+        this.title += '<a href="https://twitter.com/share" class="social-icon twitter-share-button" data-related="guidofua" data-hashtags="photography"><i style="font-size: 25px;" class="icon-twitter icon-large"></i></a>';
+      }
+        
+    },
+    afterShow: function() {
+      $('.fancybox-wrap').hide();
+      $.fancybox.update();
+      $('.fancybox-opened .fancybox-title').css('margin-top', '-65px');
+      $('.fancybox-wrap').show();
+    },
+    helpers : {
+      title : {
+        type: 'inside'
+      }
+    }  
+  });
+
+  $("body").css({"visibility" : "visible"});
 
 });
+
