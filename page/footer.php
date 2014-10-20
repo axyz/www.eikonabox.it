@@ -34,13 +34,13 @@
 
 <script src="<?php echo $basedir;?>js/jquery-1.7.1.min.js"></script>
 <script src="<?php echo $basedir;?>js/core.js"></script>
-<script src="<?php echo $basedir;?>js/bootstrap.js"></script>
-<script src="<?php echo $basedir;?>js/klass.min.js"></script>
+<script async src="<?php echo $basedir;?>js/bootstrap.min.js"></script>
+<script async src="<?php echo $basedir;?>js/klass.min.js"></script>
 <script src="<?php echo $basedir;?>js/jquery.masonry.min.js"></script>
 <script src="<?php echo $basedir;?>js/jquery.flexslider.min.js"></script>
 <script src="<?php echo $basedir;?>js/jquery.infinitescroll.min.js"></script>
 <script src="<?php echo $basedir;?>js/jquery.fancybox.min.js"></script>
-<script type="text/javascript" src="//assets.pinterest.com/js/pinit.js"></script>
+<script type="text/javascript" src="//assets.pinterest.com/js/pinit.js" defer></script>
 <script src="<?php echo $basedir;?>js/script.js"></script>
 
 <script type="text/javascript">
@@ -56,6 +56,15 @@
   })();
 
 </script>
+<link href="<?php echo $basedir;?>css/bootstrap.css" rel="stylesheet">
+    <!--<link href="/eikonanew/css/bootstrap.less" rel="stylesheet/less">-->
+    <!--<link href="/eikonanew/css/styles.less" rel="stylesheet/less">-->
+    <link href="<?php echo $basedir;?>css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="<?php echo $basedir;?>css/jquery.fancybox.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Carrois+Gothic+SC' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+    <link href="<?php echo $basedir;?>css/styles.min.css" rel="stylesheet">
 </body>
 
 </html>
