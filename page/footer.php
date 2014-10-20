@@ -34,7 +34,7 @@
 
 <script src="<?php echo $basedir;?>js/jquery-1.7.1.min.js"></script>
 <script src="<?php echo $basedir;?>js/core.js"></script>
-<script async src="<?php echo $basedir;?>js/bootstrap.min.js"></script>
+<script src="<?php echo $basedir;?>js/bootstrap.min.js"></script>
 <script async src="<?php echo $basedir;?>js/klass.min.js"></script>
 <script src="<?php echo $basedir;?>js/jquery.masonry.min.js"></script>
 <script src="<?php echo $basedir;?>js/jquery.flexslider.min.js"></script>
