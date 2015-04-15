@@ -3,6 +3,11 @@
 function makeGallery($api, $user, $folder, $thumb_width)
 {
   $images = $api->resources(array("type" => "upload", "prefix" => "$folder/"));
+  echo "
+      <div class='container-fluid'>
+      <div class='row'>
+      <ul id='photoswipe' class='thumbnails'>
+  ";
 
   forEach ($images["resources"] as $image) {
     $name = $image["public_id"];
@@ -19,12 +24,15 @@ function makeGallery($api, $user, $folder, $thumb_width)
     $thumb_url = "http://res.cloudinary.com/$user/image/$type/c_thumb,e_unsharp_mask:50,fl_keep_iptc,q_92,w_$thumb_width/v$version/$name.$ext";
 
     echo "
-      <ul>
-        <li>
-          <a href='$url'><img src='$thumb_url' /></a>
+        <li class='box'>
+          <a href='$url' class='thumbnails'><img src='$thumb_url' /></a>
         </li>
-      </ul>
     ";
   }
+  echo "
+    </ul>
+    </div>
+    </div>
+  ";
 };
 
