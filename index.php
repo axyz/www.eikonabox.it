@@ -114,7 +114,7 @@
       <div class="span4 shadow">
         <a href="<?= $basedir ?>page/projects.php" title="italian advertising photographer">
           <div class="home-section" style="background:url(img/home/videomaker-produzioni-video-roma.jpg) no-repeat 0px 40%;background-size:100%;" >
-            <div class="home-section-title">advertisingdiv
+            <div class="home-section-title">advertising</div>
           </div>
         </a>
       </div>
