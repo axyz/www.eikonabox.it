@@ -1,30 +1,30 @@
-function setActiveNav(){
+function setActiveNav() {
 	var sPath = window.location.pathname;
 
 	var sPage = sPath.substring(sPath.lastIndexOf('/') + 1);
 	var href;
 	sPage = sPage.split(".");
 	sPage = sPage[0];
-	
-  $('.nav li').each(function() {
+
+  $('.nav li').each(function () {
    	$(this).removeClass('active');
-    	href = $(this).find('a').attr('href');
-    	href = (typeof href === 'undefined') ? "" : href.split("/");
-    	href = href[href.length - 1];
-    	href = (typeof href === 'undefined') ? "" : href.split(".")[0];
-    	if (href === sPage) {
-      	$(this).addClass('active');
-    	}
+    href = $(this).find('a').attr('href');
+    href = (typeof href === 'undefined') ? "" : href.split("/");
+    href = href[href.length - 1];
+    href = (typeof href === 'undefined') ? "" : href.split(".")[0];
+    if (href === sPage) {
+      $(this).addClass('active');
+    }
 	});
 }
 
-function obclose(){
-  $('li').click(function(){
+function obclose() {
+  $('li').click(function () {
     $(document).orangeBox('destroy');
   });
 }
 
-$(function(){
+$(function () {
 
   $('.home [title]').removeAttr('title');
   $('.navbar [title]').removeAttr('title');
@@ -32,16 +32,16 @@ $(function(){
   $.support.transition = undefined;
 
 	setActiveNav();
-  
+
 	$('.flexslider').flexslider({
     animation: "fade",
     controlNav: false,
-    directionNav: false,
+    directionNav: false
   });
 
   var $container = $('#photoswipe');
 
-  $container.imagesLoaded(function(){
+  $container.imagesLoaded(function () {
     $container.masonry({
       itemSelector: '.box',
       columnWidth: 1,
@@ -57,27 +57,29 @@ $(function(){
     bufferPx     : 600,
     loading: {
       finishedMsg: 'No more photos to show.',
-      img: "http://www.infinite-scroll.com/loading.gif",
+      img: "http://www.infinite-scroll.com/loading.gif"
     }
-    },
-    // trigger Masonry as a callback
-    function( newElements ) {
-    // hide new items while they are loading
-      var $newElems = $( newElements ).css({ opacity: 0 });
-      // ensure that images load before adding to masonry layout
-      $newElems.imagesLoaded(function(){
-      // show elems now they're ready
-        $newElems.animate({ opacity: 1 });
-        $container.masonry( 'appended', $newElems, true );
-      });
-    }
-  );
+  },
+                            // trigger Masonry as a callback
+                            function( newElements ) {
+                              // hide new items while they are loading
+                              var $newElems = $( newElements ).css({ opacity: 0 });
+                              // ensure that images load before adding to masonry layout
+                              $newElems.imagesLoaded(function () {
+                                // show elems now they're ready
+                                $newElems.animate({ opacity: 1 });
+                                $container.masonry( 'appended', $newElems, true );
+                              });
+                            }
+                           );
 
 
-  $('#videogallery').masonry({ columnWidth: 1,});
-	$('#homewall').masonry({ columnWidth: function( containerWidth ) {
-    return containerWidth / 6;
-  },});
+  $('#videogallery').masonry({columnWidth: 1});
+	$('#homewall').masonry({
+    columnWidth: function (containerWidth) {
+      return containerWidth / 6;
+    }
+  });
 	//var myPhotoSwipe = $("#photoswipe a").photoSwipe({ enableMouseWheel: true , enableKeyboard: true });
 
   $('#photoswipe a').fancybox({
@@ -87,19 +89,30 @@ $(function(){
       if (this.title) {
         // New line
         this.title += '<br /><br />';
+        var media = this.href.indexOf('http') === 0 ?
+              this.href : 'http%3A%2F%2Feikona.eu%2Fpage%2F' + this.href;
+        var img = this.href.indexOf('http') === 0 ?
+              this.href : 'http://eikona.eu/page/' + escape(this.href);
 
         // Add FaceBook like button
-        this.title += '<a href="http://www.facebook.com/sharer.php?u=http://eikona.eu/php/static.php?img=http://eikona.eu/page/' + this.href + '" class="social-icon"><i style="font-size: 22px;" class="icon-facebook-sign icon-large"></i></a>&nbsp;&nbsp;&nbsp;';
-        
-        this.title += '<a href="http://pinterest.com/pin/create/button/?url=http%3A%2F%2Feikona.eu&media=http%3A%2F%2Feikona.eu%2Fpage%2F' + this.href + '" class="social-icon"><i style="font-size: 22px;" class="icon-pinterest icon-large"></i></a>&nbsp;&nbsp;&nbsp;';
+        this.title += '<a href="http://www.facebook.com/sharer.php?u=http://eikona.eu/php/static.php?img=' +
+          img +
+          '" class="social-icon"><i style="font-size: 22px;" class="icon-facebook-sign icon-large"></i></a>&nbsp;&nbsp;&nbsp;';
 
-        this.title += '<a href="https://plusone.google.com/_/+1/confirm?hl=en&url=http://eikona.eu/" class="social-icon"><i style="font-size: 22px;" class="icon-google-plus-sign icon-large"></i></a>&nbsp;&nbsp;&nbsp;';
+        this.title += '<a href="http://pinterest.com/pin/create/button/?url=http%3A%2F%2Feikona.eu&media=' +
+          media +
+          '" class="social-icon"><i style="font-size: 22px;" class="icon-pinterest icon-large"></i></a>&nbsp;&nbsp;&nbsp;';
+
+        this.title += '<a href="https://plus.google.com/share?url=http://eikona.eu/php/static.php?img=' +
+          encodeURI(img) +
+          '" class="social-icon"><i style="font-size: 22px;" class="icon-google-plus-sign icon-large"></i></a>&nbsp;&nbsp;&nbsp;';
         // Add tweet button
         this.title += '<a href="https://twitter.com/share" class="social-icon twitter-share-button" data-related="guidofua" data-hashtags="photography"><i style="font-size: 25px;" class="icon-twitter icon-large"></i></a>';
+
       }
-        
+
     },
-    afterShow: function() {
+    afterShow: function () {
       $('.fancybox-wrap').hide();
       $.fancybox.update();
       $('.fancybox-opened .fancybox-title').css('margin-top', '-65px');
@@ -109,10 +122,9 @@ $(function(){
       title : {
         type: 'inside'
       }
-    }  
+    }
   });
 
   $("body").css({"visibility" : "visible"});
 
 });
-
