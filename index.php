@@ -62,20 +62,24 @@
     </div>
 
     <div class="row">
-      <div class="span4 shadow">
+      <div class="span6 shadow">
         <a href="<?= $basedir ?>page/reportage.php" title="italian reportage photographer">
-          <div class="home-section" style="background:url(img/home/fotografo-reportage-roma.jpg) no-repeat 0px 50%;background-size:100%;" >
+          <div class="home-section large" style="background:url(img/home/fotografo-reportage-roma.jpg) no-repeat 0px 50%;background-size:100%;" >
             <div class="home-section-title">reportage</div>
           </div>
         </a>
       </div>
-      <div class="span4 shadow">
+
+      <div class="span6 shadow">
         <a href="<?= $basedir ?>page/corporate.php" title="italian corporate photographer">
-          <div class="home-section" style="background:url(img/home/fotografo-corporate-roma.jpg) no-repeat 0px 70%;background-size:100%;" >
+          <div class="home-section large" style="background:url(img/home/fotografo-corporate-roma.jpg) no-repeat 0px 70%;background-size:100%;" >
             <div class="home-section-title">corporate</div>
           </div>
         </a>
       </div>
+    </div>
+
+    <div class="row">
       <div class="span4 shadow">
         <a href="<?= $basedir ?>page/fashion.php" title="italian fashion photographer">
           <div class="home-section" style="background:url(img/home/fotografo-fashion-roma.jpg) no-repeat 0px 20%;background-size:100%;" >
@@ -83,38 +87,35 @@
           </div>
         </a>
       </div>
-    </div>
-
-    <div class="row">
-      <div class="span6 shadow">
+      <div class="span4 shadow">
         <a href="<?= $basedir ?>page/interiors.php" title="italian interiors photographer">
-          <div class="home-section large" style="background:url(img/home/fotografo-roma.jpg) no-repeat 0px 78%;background-size:100%;" >
+          <div class="home-section" style="background:url(img/home/fotografo-roma.jpg) no-repeat 0px 78%;background-size:100%;" >
             <div class="home-section-title">interiors</div>
           </div>
         </a>
       </div>
-
-      <div class="span6 shadow">
+      <div class="span4 shadow">
         <a href="<?= $basedir ?>page/still.php" title="italian still-life photographer">
-          <div class="home-section large" style="background:url(img/home/fotografo-roma.jpg) no-repeat 0px 78%;background-size:100%;" >
+          <div class="home-section" style="background:url(img/home/fotografo-roma.jpg) no-repeat 0px 78%;background-size:100%;" >
             <div class="home-section-title">still</div>
           </div>
         </a>
       </div>
     </div>
 
+    
     <div class="row">
-      <div class="span4 shadow">
-        <a href="<?= $basedir ?>page/publication.php" title="italian editorial photographer">
-          <div class="home-section" style="background:url(img/home/fotografo-editoriale-roma.jpg) no-repeat 0px 18%;background-size:100%;" >
-            <div class="home-section-title">publications</div>
-          </div>
-        </a>
-      </div>
       <div class="span4 shadow">
         <a href="<?= $basedir ?>page/projects.php" title="italian advertising photographer">
           <div class="home-section" style="background:url(img/home/videomaker-produzioni-video-roma.jpg) no-repeat 0px 40%;background-size:100%;" >
             <div class="home-section-title">advertising</div>
+          </div>
+        </a>
+      </div>
+      <div class="span4 shadow">
+        <a href="<?= $basedir ?>page/publication.php" title="italian editorial photographer">
+          <div class="home-section" style="background:url(img/home/fotografo-editoriale-roma.jpg) no-repeat 0px 18%;background-size:100%;" >
+            <div class="home-section-title">publications</div>
           </div>
         </a>
       </div>
